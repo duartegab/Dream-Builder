@@ -7,7 +7,7 @@
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    background-image: fundo9; 
+    background-image: url(/img/fundo9.jpg); 
     color: white; 
   }
   
@@ -25,7 +25,11 @@
   
   .content {
     margin-left: 235px; /* Same as the width of the sidenav */
-    background: #afafaf;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at top, #e6fcff, transparent),
+    radial-gradient(ellipse at bottom, #493655, transparent),
+    radial-gradient(circle at 10%, #78a1ca, transparent);
   }
   
   @media screen and (max-height: 850px) {
@@ -33,9 +37,10 @@
     .sidenav a {font-size: 15px; font-family: "Arial Sans-Erif"; color: whitesmoke; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;}
   }
   .header {
-    background-image: fundo9; 
+    background-image: url(/img/fundo9.jpg); 
     width: 100%;
     height: 180px;
+    margin-left: 235px;
     color: white; 
     display: flex;
     align-items: center;
@@ -84,7 +89,7 @@
   color: whitesmoke;
   font-size: 21px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-  background: #767979;
+  background: #493655;
   width: 1080px;
   padding: 5px;
   border-radius: 0px;
@@ -121,10 +126,12 @@ img {
 }
 
 .footer {
-  background-image: fundo9; 
+    background-image: url(/img/fundo9.jpg); 
   width: 100%;
   height: 40px;
   text-align: center; 
+  margin-left: 235px;
+
 }
 
 .footer-content {
@@ -145,3 +152,7 @@ img {
 .footer-content a:hover {
   text-decoration: underline;
 }
+
+html, body {
+    background-color: radial-gradient(rgb(143, 71, 125), rgb(238, 149, 226)) ;
+    }
