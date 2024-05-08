@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
-<link rel="icon" type="image/x-ico" href="/img/tigrinho .ico">
+<link rel="icon" type="image/x-ico" href="/img/tigrinho.ico">
 <title>kit html.</title>
 
 <header class="header">
@@ -15,15 +15,9 @@
           </div>
       </div>
   </div>
-</header>      
-<title>Textos Aparecendo aos Poucos</title>
-<style>
-    .animacao {
-        white-space: nowrap;
-        font-size: 24px;
-        font-family: Arial, sans-serif;
-    }
-</style>              
+</header>
+<title>Animando Texto</title>
+<link rel="stylesheet" href="styles.css">     
 </head>
 <body>
 
@@ -45,41 +39,34 @@
 </div>
 
 
-<div class="w3-row w3-padding-64" id="home">
   <div class="content">
     <blockquote class="citacao">
-        <table border="0" width="1300" heigth="400" align="center">
+        <table border="0" width="1300" height="400" align="center">
             <tr>
-                <td align="center" width="300" height="500"><img src="urso1.svg" width="300" heigth="500"></td>
-             <td width="500" heigth="400">
-              <p class="texto-com-sombra"
-                   <big><div id="- Oie, eu sou o Bob, seu Dream Builder (Construtor de Sonhos)!" class="animacao"></div>
-                    <div id="- Nesse site, realizarei o seu sonho de ser Fatec!" class="animacao"></div>
-                    <div id="- Lembre-se que, nesse processo, funciona como uma via de mão dupla." class="animacao"></div>
-                    <div id="- Te dou os recursos, e você os torna realidade!" class="animacao"></div>
-                    <div id="- Vai ser uma jornada incrível. Vamos nessa?!" class="animacao"></div>
-                    <script src="animacao.js"></script></big>
-                </p>
+                <td align="center" width="300" height="500"><img src="urso1.svg" width="300" height="500"></td>
+             <td width="500" height="400">
+              <p class="texto-com-sombra">
+                <div class="container">
+                  <div id="textAnimation">
+                    <p>- Oie, eu sou o Bob, seu Dream Builder (Construtor de Sonhos)!</p>
+                    <p>- Nesse site, realizarei o seu sonho de ser Fatec!</p>
+                    <p>- Lembre-se que, nesse processo, funciona como uma via de mão dupla.</p>
+                    <p>- Te dou os recursos, e você os torna realidade!</p>
+                    <p>- Vai ser uma jornada incrível. Vamos nessa?!</p>
+                  </div>
+                </div>
+                <script src="script.js"></script>
+              </p>
              </td>
-             
             </tr>
           </table>
-        
     </blockquote>
-  </div></div>
- 
-  
-    
-  </div>
 </div>
-</body>
-</html> 
-
-<!-- Footer -->
-<div class="w3-row w3-padding-64" id="footer">
-  <footer class="footer">
+    
+<footer class="footer">
+  <div class="w3-row w3-padding-64" id="footer">
       <div class="footer-content">
         <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
       </div>
   </div>
-    </footer>
+</footer>

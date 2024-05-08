@@ -156,3 +156,16 @@ img {
 html, body {
     background-color: radial-gradient(rgb(143, 71, 125), rgb(238, 149, 226)) ;
     }
+
+.container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 50px 0;
+    }
+    
+#textAnimation p {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+    
