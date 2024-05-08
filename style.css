@@ -1,41 +1,119 @@
 .sidenav {
-    height: 100%;
-    width: 240px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    background-image: url(/img/fundo9.jpg); 
-    color: white; 
-  }
-  
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-image: url(/img/fundo9.jpg); 
+  color: white; 
+}
+
+.sidenav a {
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.content {
+  margin-left: 240px;
+  width: calc(100% - 240px); /* Ajustando para 100% - largura da barra lateral */
+  height: 100%;
+  background: radial-gradient(ellipse at top, #e6fcff, transparent),
+             radial-gradient(ellipse at bottom, #493655, transparent),
+             radial-gradient(circle at 10%, #78a1ca, transparent);
+}
+
+@media screen and (max-height: 850px) {
+  .sidenav {padding-top: 15px;}
   .sidenav a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 30px;
-    color: #818181;
-    display: block;
+      font-size: 15px;
+      font-family: "Arial Sans-Serif";
+      color: whitesmoke;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-weight: bold;
   }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .content {
-    margin-left: 235px; /* Same as the width of the sidenav */
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(ellipse at top, #e6fcff, transparent),
-    radial-gradient(ellipse at bottom, #493655, transparent),
-    radial-gradient(circle at 10%, #78a1ca, transparent);
-  }
-  
-  @media screen and (max-height: 850px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 15px; font-family: "Arial Sans-Erif"; color: whitesmoke; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;}
-  }
+}
+
+/* Estilo para o submenu */
+.submenu {
+  position: relative;
+}
+
+/* Estilo para o contêiner do submenu */
+.dropdown-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Estilo para mostrar o submenu quando o item pai for hover */
+.submenu:hover .dropdown-container {
+  display: block;
+}
+
+/* Estilo para os itens do submenu */
+.dropdown-container a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Estilo para os itens do submenu quando hover */
+.dropdown-container a:hover {
+  background-color: #ddd;
+}
+
+/* Estilo para o subsubmenu */
+.subsubmenu {
+  position: relative;
+}
+
+/* Estilo para o contêiner do subsubmenu */
+.subsubmenu .dropdown-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Estilo para mostrar o subsubmenu quando o item pai for hover */
+.subsubmenu:hover .dropdown-container {
+  display: block;
+}
+
+/* Estilo para os itens do subsubmenu */
+.subsubmenu .dropdown-container a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Estilo para os itens do subsubmenu quando hover */
+.subsubmenu .dropdown-container a:hover {
+  background-color: #ddd;
+}
+
+
   .header {
     background-image: url(/img/fundo9.jpg); 
     width: 100%;
