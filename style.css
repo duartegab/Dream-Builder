@@ -8,7 +8,7 @@
   overflow-x: hidden;
   padding-top: 20px;
   background-image: url(/img/fundo9.jpg); 
-  color: white; 
+  color: white;
 }
 
 .sidenav a {
@@ -42,77 +42,6 @@
       font-weight: bold;
   }
 }
-
-/* Estilo para o submenu */
-.submenu {
-  position: relative;
-}
-
-/* Estilo para o contêiner do submenu */
-.dropdown-container {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Estilo para mostrar o submenu quando o item pai for hover */
-.submenu:hover .dropdown-container {
-  display: block;
-}
-
-/* Estilo para os itens do submenu */
-.dropdown-container a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Estilo para os itens do submenu quando hover */
-.dropdown-container a:hover {
-  background-color: #ddd;
-}
-
-/* Estilo para o subsubmenu */
-.subsubmenu {
-  position: relative;
-}
-
-/* Estilo para o contêiner do subsubmenu */
-.subsubmenu .dropdown-container {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Estilo para mostrar o subsubmenu quando o item pai for hover */
-.subsubmenu:hover .dropdown-container {
-  display: block;
-}
-
-/* Estilo para os itens do subsubmenu */
-.subsubmenu .dropdown-container a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Estilo para os itens do subsubmenu quando hover */
-.subsubmenu .dropdown-container a:hover {
-  background-color: #ddd;
-}
-
 
   .header {
     background-image: url(/img/fundo9.jpg); 
