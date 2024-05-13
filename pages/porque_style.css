@@ -7,7 +7,7 @@
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    background-image: url(/img/fundo13.jpg); 
+    background-image: url(/img/fundo18.jpg); 
     color: white; 
   }
   
@@ -27,9 +27,7 @@
     margin-left: 235px; /* Same as the width of the sidenav */
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at top, #a69ed3, transparent),
-    radial-gradient(ellipse at bottom, #b498d8, transparent),
-    radial-gradient(circle at 10%, #a5caf5, transparent);
+    background: radial-gradient(ellipse, #253650, #000000);
   }
   
   @media screen and (max-height: 850px) {
@@ -37,7 +35,7 @@
     .sidenav a {font-size: 15px; font-family: "Arial Sans-Erif"; color: whitesmoke; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;}
   }
   .header {
-    background-image: url(/img/fundo13.jpg); 
+    background-image: url(/img/fundo18.jpg); 
     width: 100%;
     height: 180px;
     margin-left: 235px;
@@ -126,7 +124,7 @@ img {
 }
 
 .footer {
-    background-image: url(/img/fundo13.jpg); 
+    background-image: url(/img/fundo18.jpg); 
   width: 100%;
   height: 40px;
   text-align: center; 

@@ -7,7 +7,7 @@
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    background-image: url(/img/fundo5.jpg); 
+    background-image: url(/img/fundo25.jpg); 
     color: white; 
   }
   
@@ -27,7 +27,7 @@
     margin-left: 235px; /* Same as the width of the sidenav */
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at top, #362f3f, transparent),
+    background: radial-gradient(ellipse, rgb(63, 62, 59), rgb(1, 27, 24), black),
     radial-gradient(ellipse at bottom, #7b37d4, transparent),
     radial-gradient(circle at 10%, #816d7c, transparent);
   }
@@ -37,7 +37,7 @@
     .sidenav a {font-size: 15px; font-family: "Arial Sans-Erif"; color: whitesmoke; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;}
   }
   .header {
-    background-image: url(/img/fundo5.jpg); 
+    background-image: url(/img/fundo25.jpg); 
     width: 100%;
     height: 180px;
     margin-left: 235px;
@@ -126,7 +126,7 @@ img {
 }
 
 .footer {
-    background-image: url(/img/fundo5.jpg); 
+    background-image: url(/img/fundo25.jpg); 
   width: 100%;
   height: 40px;
   text-align: center; 
