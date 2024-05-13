@@ -29,7 +29,7 @@ function clicking(){
         setInterval(() => {
            front [i].classList.remove('show')
 
-        }, 2000);
+        });
 
         card[i].addEventListener('click' ,()=>{
 
@@ -72,7 +72,7 @@ function math(cardOne , cardTwo){
 
         cardOne.classList.remove('flip')
         cardTwo.classList.remove('flip')
-        }, 1000);
+        }, 600);
     }    
 
 }

@@ -5,12 +5,12 @@
 }
 
 body{
-    background-color: rgb(236, 239, 241);
+    background-color: rgb(78, 172, 235);
 }
 
 .head{
     max-width: 480px;
-    border: 2px solid cadetblue;
+    border: 2px solid rgb(0, 0, 0);
     margin: auto;
     height: 150px;
     display: flex;
@@ -30,7 +30,7 @@ body{
     max-width: 960px;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 1ren;
+    gap: 1rem;
     margin: auto;
     padding: 20px;
 }
@@ -47,18 +47,19 @@ body{
 
 .front{
     position: absolute;
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(245, 242, 242);
-    transform: rotateY(90deg); 
+    border: 2px solid rgb(36, 26, 128);
+    background-color: rgb(255, 255, 255);
+    transform:rotateY(90deg);
 }
+   
 
 .back{
-    background-color: rgb(66, 63, 68);
+    background-color: rgb(98, 0, 255);
 }
 
 img{
