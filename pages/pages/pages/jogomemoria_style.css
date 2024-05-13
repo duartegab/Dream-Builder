@@ -52,13 +52,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(179, 50, 50);
-    background-color: rgb(192, 94, 94);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(245, 242, 242);
     transform: rotateY(90deg); 
 }
 
 .back{
-    background-color: rgb(122, 82, 161);
+    background-color: rgb(66, 63, 68);
 }
 
 img{
