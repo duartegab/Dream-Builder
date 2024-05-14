@@ -1,5 +1,14 @@
 .head {
     margin-left: 20px;
+    border: 2px solid rgb(49, 68, 119);
+    margin: auto;
+    height: 150px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 20px;
+
 }
 
 .score{
@@ -12,15 +21,19 @@
     grid-template-columns: repeat(3, auto);
     gap: 0.1rem; /* Reduzindo o espaçamento entre as cartas */
     padding: 20px;
+    margin: auto;
 }
 
 .cell {
+    position: relative;
+    cursor: pointer;
     margin: 0; /* Removendo margens */
 }
 
 .cell div {
-    padding-left: 10px;
-    padding-right: 10px;
+   height: 130px;
+   border-radius: 4px;
+
 }
 
 .front{
