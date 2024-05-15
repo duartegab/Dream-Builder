@@ -6,16 +6,21 @@ const finalScore = document.querySelector(".final-socre > span")
 const menu = document.querySelector(".menu-screen")
 const buttonPlay = document.querySelector("btn-play")
 
+const audio = new Audio('../pages/audio cobrinha/audio.mp3')
 
 const size = 30
 
+const snake = [
+	{ x: 200, y: 200 },
+	{ x: 230, y: 200 }
+]
 const inicialPosition = { x: 270, y: 240 }
 
 let snake = [{ x: 270, y: 240 },]
 
 const incrementScore = () => {
     score.innerText = +score.innerText + 10
-    
+
 }
 
 const randomNumber = (min, max) => {
@@ -53,8 +58,10 @@ const drawFood = () => {
     ctx.shadowBlur = 0
 }
 
+let direction = "right"
 
 const drawSnake = () => {
+    ctx.fillStyle = "red"
     ctx.fillStyle = "white"
 
     snake.forEach((position, index) => {
@@ -68,8 +75,10 @@ const drawSnake = () => {
 }
 
 const moveSnake = () => {
+    const head = snake[snake.length - 1]
     if(!direction) return
 
+    snake.shift()
     const head = snake[snake.length - 1]
 
     if (direction == "right") {
@@ -108,16 +117,18 @@ const drawGrid = () => {
     }
 }
 
+setInterval(() => {
 const checkEat = () => {
     const head = snake[snake.length - 1]
 
     if (head.x == food.x && head.y == food.y) {
         incrementScore()
+        audio.play()
         snake.push(head)
 
         let x = randomPosition()
         let y = randomPosition()
-       
+
         while (snake.find((position) => position.x == x && position.y == y)) {
             x = randomPosition() 
             y = randomPosition()
@@ -172,7 +183,7 @@ const gameLoop = () => {
 gameLoop()
 
 document.addEventListener("keydown", ({key}) => {
-    
+
     if (key == "ArrowRight" && direction != "left") {
         direction = "right"
     }
@@ -197,9 +208,3 @@ buttonPlay.addEventListener("click", () => {
 
     snake = {inicialPosition}
 })
-
-
-
-
-
-
