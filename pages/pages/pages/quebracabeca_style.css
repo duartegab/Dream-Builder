@@ -28,16 +28,22 @@ body {
     height: 100px;
     background-color: black;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .images {
-    width: 100px; /* Ajuste o tamanho da imagem */
-    height: 100px; /* Ajuste o tamanho da imagem */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .images img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -63,7 +69,17 @@ body {
 }
 
 .dropBox {
-    width: 160px; /* Ajuste o tamanho da caixa drop */
-    height: 160px; /* Ajuste o tamanho da caixa drop */
+    width: 160px;
+    height: 160px;
     background: black;
+    overflow: hidden; /* Adicionado para garantir que o conteúdo não ultrapasse os limites */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

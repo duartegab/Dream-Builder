@@ -65,23 +65,40 @@
             let data = event.dataTransfer.getData("text");
             let target = event.target;
 
-            // Ensure that the drop target is a dropBox, not an image
-            while (!target.classList.contains('dropBox') && target !== document) {
-                target = target.parentNode;
-            }
-
-            if (target.classList.contains('dropBox')) {
-                target.appendChild(document.getElementById(data));
-            }
+// Se o alvo for uma dropBox e estiver vazia
+if (target.classList.contains("dropBox") && target.children.length === 0) {
+    target.appendChild(document.getElementById(data));
+} else if (target.classList.contains("images")) {
+    // Permitir mover imagens entre as dropBox
+    let parent = target.parentNode;
+    if (parent.classList.contains("dropBox") && parent.children.length === 0) {
+        parent.appendChild(document.getElementById(data));
+    }
+}
+}
+function resetGame() {
+            shuffleImages();
         }
 
-        onload = function() {
-            let parent = document.getElementById('drag');
-            let frag = document.createDocumentFragment();
-            while (parent.children.length) {
-                frag.appendChild(parent.children[Math.floor(Math.random() * parent.children.length)]);
+        function shuffleImages() {
+            let drag = document.getElementById('drag');
+            let images = Array.from(drag.querySelectorAll('.images'));
+            let shuffledImages = shuffleArray(images);
+            drag.innerHTML = '';
+            shuffledImages.forEach(img => {
+                let dragBox = document.createElement('div');
+                dragBox.classList.add('dragBox');
+                dragBox.appendChild(img);
+                drag.appendChild(dragBox);
+            });
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
             }
-            parent.appendChild(frag);
+            return array;
         }
     </script>
 </body>
