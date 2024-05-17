@@ -19,12 +19,13 @@ window.onload = () => {
                 if(color !== null){
                     this.color = color;
                     this.img = new Image();
-                    this.img.src = `pages/pages/pages/jogo/${Tetromino.COLORS[color]}.jpg`
+                    this.img.src =`jogo/${Tetromino.COLORS[color]}.jpg`;
+
                 }
             }
 
             update(updFunc){
-                for(let i = 0; i < this.length; ++i){
+                for (let i = 0; i < this.length; ++i){
                     ctx.clearReact(
                         this.x[i] * Tetromino.BLOCK_SIZE,
                         this.y[i] * Tetromino.BLOCK_SIZE,
@@ -38,12 +39,12 @@ window.onload = () => {
             }
 
             draw() {
-                if(!this.img.complete){
+                if (!this.img.complete) {
                    this.img.onload = () => this.draw();
                    return; 
                 }
 
-                for(let i = 0; i < this.length; ++i){
+                for (let i = 0; i < this.length; ++i) {
                     ctx.drawImage(
                         this.img,
                         this.x[i] * Tetromino.BLOCK_SIZE,
@@ -54,22 +55,22 @@ window.onload = () => {
                 }
             }
 
-            collides() {
-                for(let i = 0; i < this.length; ++i){
+            collides(checkFunc) {
+                for (let i = 0; i < this.length; ++i) {
                     const{x, y} = checkFunc(i);
                     if(x < 0 || x>= FIELD_WIDTH || y < 0 || y >= FIELD_HEIGHT || FIELD[y][x] !== false)
-                        return true
+                        return true;
                 }
                 return false;
             }
 
             merge() {
-                for(let i = 0; i < this.length; ++i){
+                for (let i = 0; i < this.length; ++i) {
                     FIELD[this.y[i]][this.x[i]] = this.color;
                 }
             }
 
-            rotate(){
+            rotate() {
                 const 
                     maxX = Math.max(...this.x),
                     minX = Math.min(...this.x),
@@ -94,7 +95,7 @@ window.onload = () => {
 
         const
         FIELD_WIDTH = 10,
-        FIELD_HEIGHT = 20
+        FIELD_HEIGHT = 20,
         FIELD = Array.from({length: FIELD_HEIGHT}),
         MIN_VALID_ROW = 4,
         TETROMINOES = [
@@ -110,21 +111,21 @@ window.onload = () => {
         let tetromino = null,
         delay,
         score,
-        line,
+        lines;
 
-        (function setup(){
+        (function setup() {
 
             canvas.style.top = Tetromino.BLOCK_SIZE;
             canvas.style.left = Tetromino.BLOCK_SIZE;
 
             ctx.canvas.width = FIELD_WIDTH * Tetromino.BLOCK_SIZE;
-            ctx.canvas.height = FIELD_WIDTH * Tetromino.BLOCK_SIZE;
+            ctx.canvas.height = FIELD_HEIGHT * Tetromino.BLOCK_SIZE;
 
             const scale = Tetromino.BLOCK_SIZE / 13.83333333333;
             background.style.width = scale * 166;
             background.style.height = scale * 304;
 
-            const middle =Math.floor(FIELD_WIDTH/2);
+            const middle =Math.floor(FIELD_WIDTH / 2);
             for(const t of TETROMINOES) t.x = tx.map(x => + middle);
 
             reset();
@@ -142,7 +143,7 @@ window.onload = () => {
         }
 
         function draw() {
-            if (tetromino){
+            if (tetromino) {
 
                 if(tetromino.collides(i=>({x:tetromino.x[i], y:tetromino.y[i] + 1}))){
                     tetromino.merge();
