@@ -23,77 +23,72 @@
     </head>
 <body>
 
-<div class="sidenav">
-    <a href="/index.html"><big><big>Menu Inicial</big></big></a>
+    <div class="sidenav">
+        <a href="/index.html"><big><big>Menu Inicial</big></big></a>
+        
+        <a href="#" onclick="toggleSubMenu('submenu1')">Por que Fatec?</a>
+        <div class="submenu" id="submenu1">
+            <a href="/pages/pages/html_fatec.html">Sobre a Fatec</a>
+            <a href="/pages/pages/html_depoimentos.html">Depoimentos</a>
+        </div>
     
-    <a href="#" onclick="toggleSubMenu('submenu1')">Por que Fatec?</a>
-    <div class="submenu" id="submenu1">
-        <a href="/pages/pages/html_fatec.html">Sobre a Fatec</a>
-        <a href="/pages/pages/html_depoimentos.html">Depoimentos</a>
+        <a href="#" onclick="toggleSubMenu('submenu2')">Descobrindo seu Curso</a>
+        <div class="submenu" id="submenu2">
+            <a href="#" onclick="toggleSubSubMenu('subsubmenu1')">Cursos</a>
+                <div class="subsubmenu" id="subsubmenu1">
+                    <a href="/pages/pages/pages/html_ads.html">ADS</a>
+                    <a href="/pages/pages/pages/html_dsm.html">DSM</a>
+                    <a href="/pages/pages/pages/html_ge.html">GE</a>
+                    <a href="/pages/pages/pages/html_gpi.html">GPI</a>
+                    <a href="/pages/pages/pages/html_grh.html">GRH</a>
+                </div>
+            <a href="/pages/pages/html_quiz.html" onclick="toggleSubMenu('submenu2')">Quiz</a>
+        </div>
+    
+        <a href="/pages/html_cronograma.html">Meu Cronograma</a>
+    
+        <a href="#" onclick="toggleSubMenu('submenu3')">Como estou?</a>
+        <div class="submenu" id="submenu3">
+            <a href="/pages/pages/html_geral.html">Modo Geral</a>
+            <a href="/pages/pages/html_especifico.html">Modo Específico</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu4')">Provas e Correções</a>
+        <div class="submenu" id="submenu4">
+            <a href="/pages/pages/html_provass.html">Provas</a>
+            <a href="/pages/pages/html_gabaritos.html">Gabaritos</a>
+            <a href="/pages/pages/html_correcoes.html">Correções</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu5')">Redação +</a>
+        <div class="submenu" id="submenu5">
+            <a href="/pages/pages/html_simulado.html">Praticando</a>
+            <a href="/pages/pages/html_correcao.html">Corrigindo</a>
+            <a href="/pages/pages/html_dicas.html">Aprendendo</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu6')">Exercícios e Conteúdo</a>
+        <div class="submenu" id="submenu6">
+            <a href="/pages/pages/html_relacao.html">Em Alta</a>
+            <a href="/pages/pages/html_exercicioss.html">Exercícios</a>
+            <a href="/pages/pages/html_videoaula.html">Vídeo Aulas</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu7')">Pausa e Foco</a>
+        <div class="submenu" id="submenu7">
+            <a href="/pages/pages/html_jogos.html" onclick="toggleSubSubMenu('subsubmenu2')">Jogue</a>
+            <a href="/pages/pages/html_dance.html" onclick="toggleSubMenu('submenu7')">Dance</a>
+            <a href="/pages/pages/html_medite.html" onclick="toggleSubMenu('submenu7')">Medite</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu8')">Quem Somos?</a>
+        <div class="submenu" id="submenu8">
+            <a href="/pages/pages/html_carol.html">Carol</a>
+            <a href="/pages/pages/html_gabs.html">Gabs</a>
+        </div>
+    
+        <a href="/pages/html_contato.html"><big><big>Contato</big></big></a>
     </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu2')">Descobrindo seu Curso</a>
-    <div class="submenu" id="submenu2">
-        <a href="#" onclick="toggleSubSubMenu('subsubmenu1')">Cursos</a>
-            <div class="subsubmenu" id="subsubmenu1">
-                <a href="/pages/pages/pages/html_ads.html">ADS</a>
-                <a href="/pages/pages/pages/html_dsm.html">DSM</a>
-                <a href="/pages/pages/pages/html_ge.html">GE</a>
-                <a href="/pages/pages/pages/html_gpi.html">GPI</a>
-                <a href="/pages/pages/pages/html_grh.html">GRH</a>
-            </div>
-        <a href="/pages/pages/html_quiz.html" onclick="toggleSubMenu('submenu2')">Quiz</a>
-    </div>
-
-    <a href="/pages/html_cronograma.html">Meu Cronograma</a>
-
-    <a href="#" onclick="toggleSubMenu('submenu3')">Como estou?</a>
-    <div class="submenu" id="submenu3">
-        <a href="/pages/pages/html_geral.html">Modo Geral</a>
-        <a href="/pages/pages/html_especifico.html">Modo Específico</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu4')">Provas e Correções</a>
-    <div class="submenu" id="submenu4">
-        <a href="/pages/pages/html_provass.html">Provas</a>
-        <a href="/pages/pages/html_gabaritos.html">Gabaritos</a>
-        <a href="/pages/pages/html_correcoes.html">Correções</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu5')">Redação +</a>
-    <div class="submenu" id="submenu5">
-        <a href="/pages/pages/html_simulado.html">Praticando</a>
-        <a href="/pages/pages/html_correcao.html">Corrigindo</a>
-        <a href="/pages/pages/html_dicas.html">Aprendendo</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu6')">Exercícios e Conteúdo</a>
-    <div class="submenu" id="submenu6">
-        <a href="/pages/pages/html_relacao.html">Em Alta</a>
-        <a href="/pages/pages/html_exercicioss.html">Exercícios</a>
-        <a href="/pages/pages/html_videoaula.html">Vídeo Aulas</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu7')">Pausa e Foco</a>
-    <div class="submenu" id="submenu7">
-        <a href="#" onclick="toggleSubSubMenu('subsubmenu2')">Jogue</a>
-            <div class="subsubmenu" id="subsubmenu2">
-                <a href="/pages/pages/pages/html_jogoum.html">Jogo 1</a>
-                <a href="/pages/pages/pages/html_jogodois.html">Jogo 2</a>
-                <a href="/pages/pages/pages/html_jogotres.html">Jogo 3</a>
-            </div>
-        <a href="/pages/pages/html_dance.html" onclick="toggleSubMenu('submenu7')">Dance</a>
-        <a href="/pages/pages/html_medite.html" onclick="toggleSubMenu('submenu7')">Medite</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu8')">Quem Somos?</a>
-    <div class="submenu" id="submenu8">
-        <a href="/pages/pages/html_carol.html">Carol</a>
-        <a href="/pages/pages/html_gabs.html">Gabs</a>
-    </div>
-
-    <a href="/pages/html_contato.html"><big><big>Contato</big></big></a>
-</div>
 <div class="content">
     <blockquote class="citacao">
         <table border="0" width="1300" height="400" align="center">
@@ -118,13 +113,13 @@
     </blockquote>
     </div>
 <div class="content">
-<p>Solte o play se estar afim dar aquela meditada. &#129496;</p>
+<p>- Solte o play se estar afim dar aquela meditada. &#129496;</p>
 <iframe src="https://youtu.be/YodnDMkRxEQ?si=Qq_os6FG2S89hjX3" frameborder="0" width="868" height="450"></iframe>
 
-<p>Pra você que curte um lo-fi... &#127810;</p>
+<p>- Pra você que curte um lo-fi... &#127810;</p>
 <iframe src="https://youtube.com/playlist?list=PLKs7SMx_9ycuLpiUMYyY2jW3SKJ4lsVP-&si=rZQ6c_uNW4epBVzR" frameborder="0" width="868" height="450"></iframe>
 
-<p>Mas, se você prefere ouvir a natureza. Tudo bem, esse vídeo é pra você: &#127811;</p>
+<p>- Mas, se você prefere ouvir a natureza. Tudo bem, esse vídeo é pra você: &#127811;</p>
 <iframe src="https://youtu.be/RuM2smt8Bgc?si=rQWf9yHiYWv21ZdW" frameborder="0" width="868" height="450"></iframe>
 </div>
     </div>
