@@ -1,188 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="/pages/pages/dicas_style.css" media="screen"/>
-        <link rel="icon" type="image/x-ico" href="/img/polar.ico">
-        <title>dream builder.</title>
-        
-        <header class="header">
-          <div class="container">
-              <div class="header-cont">
-                  <div class="header-text">
-                      <h1 class="texto-com-sombra"><b>DREAM BUILDER</b></h1>
-                      <h2 class="texto-com-sombra"><b>CONSTRUINDO O SEU SONHO DE SER FATEC</b></h2>
-                  </div>
-              </div>
-          </div>
-        </header>
-        <title>Animando Texto</title>
-        <link rel="stylesheet" href="/pages/pages/dicas_style.css">     
-   
-    </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memmory Game</title>
+    <link rel="stylesheet" href="/pages/pages/pages/jogomemoria_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<script defer src="/pages/pages/pages/jogomemoria_script.js"></script>
+</head>
 <body>
-
-<div class="sidenav">
-    <a href="/index.html"><big><big>Menu Inicial</big></big></a>
-    
-    <a href="#" onclick="toggleSubMenu('submenu1')">Por que Fatec?</a>
-    <div class="submenu" id="submenu1">
-        <a href="/pages/pages/html_fatec.html">Sobre a Fatec</a>
-        <a href="/pages/pages/html_depoimentos.html">Depoimentos</a>
+    <div class="head">
+        <h2>Jogo da Memória</h2>
+        <div class="score">Pontuação: <span>0</span></div>
     </div>
 
-    <a href="#" onclick="toggleSubMenu('submenu2')">Descobrindo seu Curso</a>
-    <div class="submenu" id="submenu2">
-        <a href="#" onclick="toggleSubSubMenu('subsubmenu1')">Cursos</a>
-            <div class="subsubmenu" id="subsubmenu1">
-                <a href="/pages/pages/pages/html_ads.html">ADS</a>
-                <a href="/pages/pages/pages/html_dsm.html">DSM</a>
-                <a href="/pages/pages/pages/html_ge.html">GE</a>
-                <a href="/pages/pages/pages/html_gpi.html">GPI</a>
-                <a href="/pages/pages/pages/html_grh.html">GRH</a>
-            </div>
-        <a href="/pages/pages/html_quiz.html" onclick="toggleSubMenu('submenu2')">Quiz</a>
-    </div>
-
-    <a href="/pages/html_cronograma.html">Meu Cronograma</a>
-
-    <a href="#" onclick="toggleSubMenu('submenu3')">Como estou?</a>
-    <div class="submenu" id="submenu3">
-        <a href="/pages/pages/html_geral.html">Modo Geral</a>
-        <a href="/pages/pages/html_especifico.html">Modo Específico</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu4')">Provas e Correções</a>
-    <div class="submenu" id="submenu4">
-        <a href="/pages/pages/html_provass.html">Provas</a>
-        <a href="/pages/pages/html_gabaritos.html">Gabaritos</a>
-        <a href="/pages/pages/html_correcoes.html">Correções</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu5')">Redação +</a>
-    <div class="submenu" id="submenu5">
-        <a href="/pages/pages/html_simulado.html">Praticando</a>
-        <a href="/pages/pages/html_correcao.html">Corrigindo</a>
-        <a href="/pages/pages/html_dicas.html">Aprendendo</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu6')">Exercícios e Conteúdo</a>
-    <div class="submenu" id="submenu6">
-        <a href="/pages/pages/html_relacao.html">Em Alta</a>
-        <a href="/pages/pages/html_exercicioss.html">Exercícios</a>
-        <a href="/pages/pages/html_videoaula.html">Vídeo Aulas</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu7')">Pausa e Foco</a>
-    <div class="submenu" id="submenu7">
-        <a href="#" onclick="toggleSubSubMenu('subsubmenu2')">Jogue</a>
-            <div class="subsubmenu" id="subsubmenu2">
-                <a href="/pages/pages/pages/html_jogoum.html">Jogo 1</a>
-                <a href="/pages/pages/pages/html_jogodois.html">Jogo 2</a>
-                <a href="/pages/pages/pages/html_jogotres.html">Jogo 3</a>
-            </div>
-        <a href="/pages/pages/html_dance.html" onclick="toggleSubMenu('submenu7')">Dance</a>
-        <a href="/pages/pages/html_medite.html" onclick="toggleSubMenu('submenu7')">Medite</a>
-    </div>
-
-    <a href="#" onclick="toggleSubMenu('submenu8')">Quem Somos?</a>
-    <div class="submenu" id="submenu8">
-        <a href="/pages/pages/html_carol.html">Carol</a>
-        <a href="/pages/pages/html_gabs.html">Gabs</a>
-    </div>
-
-    <a href="/pages/html_contato.html"><big><big>Contato</big></big></a>
-</div>
-
-<div class="content">
-    <blockquote class="citacao">
-        <table border="0" width="1300" height="400" align="center">
-            <tr>
-                <td align="center" width="300" height="500"><img src="/img/urso1.svg" width="300" height="500"></td>
-             <td width="500" height="400">
-              <p class="texto-com-sombra">
-                <div class="container">
-                  <div id="textAnimation">
-                    <p>- Nesta página, você curtirá sua pausa com o jogo da memória!</p>
-                    <p>- Utilize esse momento para relaxar. Afinal, você já estudou bastante...</p>
-                    <p>- Lembre-se de colocar o cronômetro na função: Pausa.</p>
-                    <p>- Quando finalizar, retome a Página de Exercícios ou Redação.</p>
-                    <p>- Chega de enrolação. Vamos aos jogos!</p>
-                  </div>
-                </div>
-                <script src="/pages/pages/dicas_script.js"></script>
-              </p>
-             </td>
-            </tr>
-          </table>
-    </blockquote>
-    </div>
-    <div class="content">
-        <h2 class="texto-com-sombra">Jogo da Memória</h2>    
-        <div class="score"><p>Pontuação: <span>0</span></p></div>
-        <div class="container">
-            <div class="cell">
-                <div class="front" data-index="1"> <img src="imagens/uva1.png" alt="uva1"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="1"> <img src="imagens/uva2.png" alt="uva2"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="2"> <img src="imagens/vinho1.png" alt="vinho1"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="2"> <img src="imagens/vinho2.png" alt="vinho2"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="3"> <img src="imagens/blu1.png" alt="blueberry1"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="3"> <img src="imagens/blu2.png" alt="blueberry2"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="4"> <img src="imagens/gelo1.png" alt="gelo1"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="4"> <img src="imagens/gelo2.png" alt="gelo2"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="5"> <img src="imagens/donut1.png" alt="donut1"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="5"> <img src="imagens/donut2.png" alt="donut2"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="6"> <img src="imagens/flamingo1.png" alt="flamingo1"></div>
-                <div class="back"></div>
-            </div>
-            <div class="cell">
-                <div class="front" data-index="6"> <img src="imagens/flamingo2.png" alt="flamingo2"></div>
-                <div class="back"></div>
-            </div>
+    <div class="container">
+        <div class="cell">
+            <div class="front" data-index="1"><img src="/pages/pages/pages/imagens/blu1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="1"><img src="/pages/pages/pages/imagens/blu2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="2"><img src="/pages/pages/pages/imagens/donut1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="2"><img src="/pages/pages/pages/imagens/donut2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="3"><img src="/pages/pages/pages/imagens/flamingo1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="3"><img src="/pages/pages/pages/imagens/flamingo2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="4"><img src="/pages/pages/pages/imagens/gelo1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="4"><img src="/pages/pages/pages/imagens/gelo2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="5"><img src="/pages/pages/pages/imagens/uva1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="5"><img src="/pages/pages/pages/imagens/uva2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="6"><img src="/pages/pages/pages/imagens/vinho1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="6"><img src="/pages/pages/pages/imagens/vinho2.png" alt=""></div>
+            <div class="back"></div>
         </div>
     </div>
-    </body>
-    <footer class="footer">
-        <div class="w3-row w3-padding-64" id="footer">
-            <div class="footer-content">
-              <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
-            </div>
-        </div>
-      </footer>
-    </html>
-</div>
-
-
-
-    
+</body>
+</html>
