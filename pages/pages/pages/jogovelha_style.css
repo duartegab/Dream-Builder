@@ -1,48 +1,56 @@
-body {
+
+* {
     margin: 0;
     padding: 0;
-    background-color: black;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
     text-align: center;
+    font-family: georgia;
+    color: whitesmoke;
 }
 
-#wrapper {
-    display: inline-block;
-    margin: 20px;
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-#left-div {
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px;
-    padding: 20px;
-    border: solid 1px white;
-    width: 286px;
-    height: 572.325px;
-}
-#logo {
-    width: 160px;
-    margin-bottom: 15px;
+.game button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #adace9;
+    font-family: 'cambria'; /* Altera a fonte dos botões */
+    color: #35323b; /* Altera a cor dos botões */
 }
 
-#game-container {
-    position: relative;
-    display: inline-block;
+.currentPlayer {
+    text-align: center;
+    font-family: 'Georgia', serif; /* Altera a fonte do h2 */
+    color: whitesmoke; /* Altera a cor do h2 */
+    margin-top: 10px; /* Adiciona margem superior */
 }
 
-#background {
-    z-index: -1;
-}
-
-#game-canvas {
-    position: absolute;
-}
-
-#score-div,
-#lines-div {
-    color: white;
-    font-size: 23px;
-    font-weight: bold;
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-align: left;
-    margin: 15 0;
+.currentPlayer span {
+    color: whitesmoke; /* Cor diferenciada para o jogador atual */
+    font-family: georgia;
 }
