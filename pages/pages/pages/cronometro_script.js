@@ -9,10 +9,12 @@ let time = document.getElementById("time");
 
 let set;
 let active = "focus";
-let count = 59;
 let paused = true;
-let minCount = 24;
-time.textContent = `${minCount + 1}:00`;
+let minCount = 25;
+let count = 0;
+let hoursCount = 0;
+
+time.textContent = `${hoursCount + minCount + 0}:00`;
 
 const appendZero = (value) => { 
     return value < 10 ? `0${value}` : value;
@@ -26,17 +28,20 @@ const pauseTimer = () => {
 const resetTime = () => {
     switch(active) {
         case "long":
-            minCount = 299;
+            hoursCount = 5;
+            minCount = 0;
             break;
         case "short":
-            minCount = 4;
+            hoursCount = 0;
+            minCount = 5;
             break;
         default:
-            minCount = 24;
+            hoursCount = 0;
+            minCount = 25;
             break;
     }
-    count = 59;
-    time.textContent = `${appendZero(minCount + 1)}:00`;
+    count = 0;
+    time.textContent = `${appendZero(hoursCount + minCount + 0)}:00`;
 };
 
 reset.addEventListener("click", () => {
@@ -109,7 +114,7 @@ startBtn.addEventListener("click", () => {
             } else {
                 count--;
             }
-            time.textContent = `${appendZero(minCount)}:${appendZero(count)}`;
+            time.textContent = `${appendZero(hoursCount)}:${appendZero(minCount)}:${appendZero(count)}`;
         }, 1000);
     }
 });
