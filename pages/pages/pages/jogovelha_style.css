@@ -39,7 +39,8 @@ h1 {
     cursor: pointer;
     font-size: 50px;
     background: #adace9;
-    font-family: 'cambria'; /* Altera a fonte dos botões */
+    font-family: 'Arial'; /* Altera a fonte dos botões */
+    font-weight: bold;
     color: #35323b; /* Altera a cor dos botões */
 }
 
