@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman';
+    font-family: sans-serif
 }
 
 body {
@@ -35,6 +35,57 @@ button {
 .btn {
     padding: 1em 2em;
     border-radius: 0.5em;
+    background-color:  rgb(155, 137, 255);
+    color: white;
+}
+
+.btn-focus {
     background-color: mediumslateblue;
     color: white;
+}
+
+.time-btn-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+#time {
+    text-align: center;
+    font-size: 3em; 
+    font-weight: bold; 
+    color: whitesmoke;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1em;
+}
+
+#btn-start,
+#btn-pause {
+    padding: 1rem 2rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background-color: mediumpurple;
+    color: white;
+}
+
+#btn-reset {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
