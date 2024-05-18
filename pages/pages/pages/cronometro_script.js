@@ -8,11 +8,11 @@ let pause = document.getElementById("btn-pause");
 let time = document.getElementById("time");
 
 let set;
-let active = "focus";
+let active = "short";
 let paused = true;
-let minCount = 25;
+let minCount = 0;
 let count = 0;
-let hoursCount = 0;
+let hoursCount = 5;
 
 time.textContent = `${hoursCount + minCount + 0}:00`;
 
@@ -28,19 +28,24 @@ const pauseTimer = () => {
 const resetTime = () => {
     switch(active) {
         case "long":
-            hoursCount = 5;
-            minCount = 0;
+            hoursCount = 0;
+            minCount = 300;
+            count = 0;
+
             break;
         case "short":
             hoursCount = 0;
             minCount = 5;
+            count = 0;
+
             break;
         default:
             hoursCount = 0;
             minCount = 25;
+            count = 0;
+
             break;
     }
-    count = 0;
     time.textContent = `${appendZero(hoursCount + minCount + 0)}:00`;
 };
 

@@ -5,19 +5,6 @@
     font-family: sans-serif
 }
 
-
-.container {
-    background-color: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 20%;
-    border-radius: 0.5rem; 
-    margin-top: 3%;
-}
-
 button {
     border: none;
     outline: none;
@@ -25,9 +12,9 @@ button {
 }
 
 .section-container {
-    display: flex;
+    display: vertical;
     gap: 1rem;
-    justify-content: center;
+    justify-content: right;
 }
 
 .btn {
@@ -38,14 +25,14 @@ button {
 }
 
 .btn-focus {
-    background-color: mediumslateblue;
+    background-color: rgb(155, 137, 255);
     color: white;
 }
 
 .time-btn-container {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    padding-top: -10%;
 }
 
 #time {
@@ -60,11 +47,11 @@ button {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1em;
 }
 
 #btn-start,
 #btn-pause {
+    padding-left: 13%;
     padding: 1rem 2rem;
     border-radius: 0.5em;
     cursor: pointer;
