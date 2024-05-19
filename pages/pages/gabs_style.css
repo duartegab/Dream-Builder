@@ -1,0 +1,187 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(/img/fundo1.jpg);
+    overflow-x: hidden;
+    padding-top: 60px;
+    font-family: Georgia;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    font-family: Georgia;
+
+}
+
+.sidenav a:hover {
+    background-color: #d7cce0;
+}
+
+.submenu {
+    padding-left: 15px;
+    display: none;
+}
+
+.submenu a {
+    font-size: 16px;
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.submenu a:hover {
+    color: #d7cce0;
+}
+
+.subsubmenu {
+    padding-left: 30px;
+    display: none;
+}
+
+.subsubmenu a {
+    font-size: 14px;
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.subsubmenu a:hover {
+    color: #d7cce0;
+}
+
+.content {
+    margin-left: 242px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 20px;
+    background: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);
+    width: 100%;
+    height: 100%;
+}
+
+.content h1 {
+    color: #f1f1f1;
+}
+
+.content h2 {
+    color: #f1f1f1;
+}
+
+.content p {
+    color: #f1f1f1;
+}
+
+.header {
+    background-image: url(/img/fundo33.jpg); 
+    width: 100%;
+    height: 180px;
+    margin-left: 242px;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    
+}
+
+.footer {
+    background-image: url(/img/fundo30.png); 
+  width: 100%;
+  height: 40px;
+  text-align: center; 
+  margin-left: 242px;
+
+}
+
+.footer-content {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding-top: 10px; 
+}
+
+.footer-content p {
+  margin: 0; 
+  color: whitesmoke
+}
+
+.footer-content a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+#textAnimation p {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .div21 {
+    padding-top: 2%;
+      width: 600px;
+      height: 120px;
+      background-image: url(/pages/pages/img/bio8.jpg);
+      transition: width 2s, height 2s, transform 2s;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    
+    }
+
+    .div21 p {
+        color: black;
+        text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+        text-align: justify;
+    }
+    
+    .div21:hover {
+    padding-top: 2%;
+      width: 300px;
+      height: 250px;
+      transform: rotate(360deg);
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+      text-align: justify;
+    }
+
+    .div21:hover p {
+        color: black;
+        text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+        text-align: justify;
+    }
+    .fade-in.show {
+        opacity: 1;
+        transform: translateY(0);
+        text-align: justify;
+    }
+    .shadow {
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+        text-align: justify;
+
+    }
+
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      .fade-in {
+        animation: fadeIn 60s ease-out forwards;
+        opacity: 0;
+      }
+      
