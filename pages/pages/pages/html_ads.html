@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="/pages/pages/pages/ads_style.css" media="screen"/>
-        <link rel="icon" type="image/x-ico" href="/img/polar.ico">
-        <title>dream builder.</title>
-        
-        <header class="header">
-          <div class="container">
-              <div class="header-cont">
-                  <div class="header-text">
-                      <h1 class="texto-com-sombra"><b>DREAM BUILDER</b></h1>
-                      <h2 class="texto-com-sombra"><b>CONSTRUINDO O SEU SONHO DE SER FATEC</b></h2>
-                  </div>
-              </div>
-          </div>
-        </header>
-        <title>Animando Texto</title>
-        <link rel="stylesheet" href="/pages/pages/pages/ads_style.css">     
-   
-    </head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/pages/pages/pages/ads_style.css" media="screen"/>
+    <link rel="icon" type="image/x-ico" href="/img/polar.ico">
+    <title>dream builder.</title>
+    <header class="header">
+        <div class="container">
+            <div class="header-cont">
+                <div class="header-text">
+                    <h1 class="texto-com-sombra"><b>DREAM BUILDER</b></h1>
+                    <h2 class="texto-com-sombra"><b>CONSTRUINDO O SEU SONHO DE SER FATEC</b></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <title>Animando Texto</title>
+    <link rel="stylesheet" href="/pages/pages/pages/ads_style.css">     
+</head>
 <body>
 
     <div class="sidenav">
@@ -99,11 +97,12 @@
               <p class="texto-com-sombra">
                 <div class="container">
                   <div id="textAnimation">
-                    <p>- Oie, eu sou o Bob, seu Dream Builder (Construtor de Sonhos)!</p>
-                    <p>- Nesse site, realizarei o seu sonho de ser Fatec!</p>
-                    <p>- Lembre-se que, nesse processo, funciona como uma via de mão dupla.</p>
-                    <p>- Te dou os recursos, e você os torna realidade!</p>
-                    <p>- Vai ser uma jornada incrível. Vamos nessa?!</p>
+                    <p>- Bom, agora que você já descobriu tudo sobre a Fatec...</p>
+                    <p>- É a hora de dar o próximo passo!</p>
+                    <p>- Vamos navegar sobre os nossos cursos. &#128218;</p>
+                    <p>- Quer descobrir se, Análise e Desenvolvimento de Sistemas,<br>
+                    é o curso ideal para você?</p>
+                    <p>- Jogue as cartas e descubra. Pronto(a)?!</p>
                   </div>
                 </div>
                 <script src="/pages/pages/pages/ads_script.js"></script>
@@ -113,14 +112,74 @@
           </table>
     </blockquote>
 </div>
-    
-<footer class="footer">
-  <div class="w3-row w3-padding-64" id="footer">
-      <div class="footer-content">
-        <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
-      </div>
+<div class="content">
+    <p>Para fica mais fácil a sua tiragem. <br>Apenas coloque o mouse no meio de cada carta.<br> Boa sorte!</p>
+    <br><br><div class="wrapper">
   </div>
-</footer>
+  <script>
+    var direcciones = [
+  '/pages/pages/pages/img/tarotcursos.jpg',
+  '/pages/pages/pages/img/tarotcursos.jpg',
+  '/pages/pages/pages/img/tarotcursos.jpg',
+  '/pages/pages/pages/img/tarotcursos.jpg',
+  '/pages/pages/pages/img/tarotcursos.jpg'
+];
+
+var textos = [
+  'Matemática, raciocínio lógico, cálculo, bancos de dados, sistemas web, programação distribuída. Contabilidade, economia, estatística, inglês.',
+  'Manhã (das 7:40 ás 13:00, de Segunda a Sexta, com escalas alternadas) e Noite (das 19:00 ás 22:30, com aulas no Sábado pela manhã).',
+  'Criar, projetar, desenvolver e configurar programas e sistemas. Prestar consultoria, realizar auditorias e desenvolver pesquisas. ',
+  'Desenvolver e otimizar sistemas, melhorar eficiência e resolver problemas tecnológicos, contato com usuários finais.',
+  'Trabalhe de forma remota ou presencial, em empresas públicas, privadas, instituições financeiras, consultorias, TI, indústrias.'
+];
+
+var titulos = [
+  'Disciplinas',
+  'Horário',
+  'Objetivos',
+  'Obrigações',
+  'Mercado'
+];
+
+var wrapper = document.querySelector('.wrapper');
+
+direcciones.forEach((val, index) => {
+  var cardContainer = document.createElement('div');
+  cardContainer.classList.add('card-container');
+
+  var card = document.createElement('div');
+  card.classList.add('card');
+
+  var front = document.createElement('div');
+  front.classList.add('front');
+  front.style.backgroundImage = 'url(' + val + ')';
+
+  var frontText = document.createElement('h3');
+  frontText.textContent = titulos[index];
+  front.appendChild(frontText);
+
+  var back = document.createElement('div');
+  back.classList.add('back');
+
+  var backText = document.createElement('p');
+  backText.textContent = textos[index];
+  back.appendChild(backText);
+
+  card.appendChild(front);
+  card.appendChild(back);
+  cardContainer.appendChild(card);
+  wrapper.appendChild(cardContainer);
+});
+
+  </script><br><br>
+</div>
 
 </body>
+<footer class="footer">
+    <div class="w3-row w3-padding-64" id="footer">
+        <div class="footer-content">
+          <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
+        </div>
+    </div>
+  </footer>
 </html>
