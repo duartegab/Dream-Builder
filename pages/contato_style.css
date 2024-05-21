@@ -11,7 +11,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-image: url(/img/fundo1.jpg);
+    background: linear-gradient(to bottom left,#092a5c,rgb(2, 11, 39));
     overflow-x: hidden;
     padding-top: 60px;
     font-family: Georgia;
@@ -67,7 +67,7 @@ body {
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 20px;
-    background: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);
+    background:linear-gradient(to bottom right,rgb(23, 3, 59),rgb(13, 100, 182), #052941, #12022c);       
     width: 97%;
     height: 50%;
   }
@@ -85,7 +85,7 @@ body {
   }
   
   .header {
-    background-image: url(/img/fundo33.jpg); 
+    background: linear-gradient(to top,#092a5c,rgb(2, 11, 39));
     width: 100%;
     height: 180px;
     margin-left: 242px;
@@ -98,8 +98,8 @@ body {
   }
   
   .footer {
-    background-image: url(/img/fundo30.png); 
-  width: 100%;
+    background: linear-gradient(to bottom,#092a5c,rgb(2, 11, 39));  
+    width: 100%;
   height: 40px;
   text-align: center; 
   margin-left: 242px;
