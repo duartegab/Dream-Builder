@@ -1,80 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="cronograma_style.css" media="screen"/>
-<link rel="icon" type="image/x-ico" href="/img/tigrinho .ico">
-<title>kit html.</title>
-
-<header class="header">
-  <div class="container">
-      <div class="header-cont">
-          <div class="header-text">
-              <h1 class="texto-com-sombra">DREAM BUILDER</h1>
-              <h2 class="texto-com-sombra">CONSTRUINDO O SEU SONHO DE SER FATEC</h2>
-          </div>
-      </div>
-  </div>
-</header>      
-           
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/pages/cronograma_style.css" media="screen"/>
+    <link rel="icon" type="image/x-ico" href="/img/polar.ico">
+    <title>dream builder.</title>
+    <header class="header">
+        <div class="container">
+            <div class="header-cont">
+                <div class="header-text">
+                    <h1 class="texto-com-sombra"><b>DREAM BUILDER</b></h1>
+                    <h2 class="texto-com-sombra"><b>CONSTRUINDO O SEU SONHO DE SER FATEC</b></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <title>Animando Texto</title>
+    <link rel="stylesheet" href="/pages/cronograma_style.css">     
 </head>
 <body>
 
-<div class="sidenav">
-    <a href="index.html"><big><big>Menu Inicial</big></big></a>
-  <br>
-  <a href="/pages/html_porque.html" target="content">Por que Fatec?</a>
-  <a href="/pages/html_descobrindo.html" target="content">Descobrindo seu Curso</a>
-  <a href="/pages/html_cronograma.html" target="content">Meu Cronograma</a>
-  <a href="/pages/html_como.html" target="content">Como estou?</a>
-  <a href="/pages/html_provas.html" target="content">Provas e Correções</a>
-  <a href="/pages/html_redacao.html" target="content">Redação +</a>
-  <a href="/pages/html_exercicios.html" target="content">Exercícios e Conteúdo</a>
-  <a href="/pages/html_pausa.html" target="content">Pausa e Foco</a>
-  <a href="/pages/html_quem.html" target="content">Quem somos?</a>
-  
-  <a href="#footer"><big><big>Contato</big></big></a>
-  <br>
-</div>
+    <div class="sidenav">
+        <a href="/index.html"><big><big>Menu Inicial</big></big></a>
+        
+        <a href="#" onclick="toggleSubMenu('submenu1')">Por que Fatec?</a>
+        <div class="submenu" id="submenu1">
+            <a href="/pages/pages/html_fatec.html">Sobre a Fatec</a>
+            <a href="/pages/pages/html_depoimentos.html">Depoimentos</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu2')">Descobrindo seu Curso</a>
+        <div class="submenu" id="submenu2">
+            <a href="#" onclick="toggleSubSubMenu('subsubmenu1')">Cursos</a>
+                <div class="subsubmenu" id="subsubmenu1">
+                    <a href="/pages/pages/pages/html_ads.html">ADS</a>
+                    <a href="/pages/pages/pages/html_dsm.html">DSM</a>
+                    <a href="/pages/pages/pages/html_ge.html">GE</a>
+                    <a href="/pages/pages/pages/html_gpi.html">GPI</a>
+                    <a href="/pages/pages/pages/html_grh.html">GRH</a>
+                </div>
+            <a href="/pages/pages/html_quiz.html" onclick="toggleSubMenu('submenu2')">Quiz</a>
+        </div>
+    
+        <a href="/pages/html_cronograma.html">Meu Cronograma</a>
+    
+        <a href="#" onclick="toggleSubMenu('submenu3')">Como estou?</a>
+        <div class="submenu" id="submenu3">
+            <a href="/pages/pages/html_geral.html">Modo Geral</a>
+            <a href="/pages/pages/html_especifico.html">Modo Específico</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu4')">Provas e Correções</a>
+        <div class="submenu" id="submenu4">
+            <a href="/pages/pages/html_provass.html">Provas</a>
+            <a href="/pages/pages/html_gabaritos.html">Gabaritos</a>
+            <a href="/pages/pages/html_correcoes.html">Correções</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu5')">Redação +</a>
+        <div class="submenu" id="submenu5">
+            <a href="/pages/pages/html_simulado.html">Praticando</a>
+            <a href="/pages/pages/html_correcao.html">Corrigindo</a>
+            <a href="/pages/pages/html_dicas.html">Aprendendo</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu6')">Exercícios e Conteúdo</a>
+        <div class="submenu" id="submenu6">
+            <a href="/pages/pages/html_relacao.html">Em Alta</a>
+            <a href="/pages/pages/html_exercicioss.html">Exercícios</a>
+            <a href="/pages/pages/html_videoaula.html">Vídeo Aulas</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu7')">Pausa e Foco</a>
+        <div class="submenu" id="submenu7">
+            <a href="/pages/pages/html_jogos.html" onclick="toggleSubSubMenu('subsubmenu2')">Jogue</a>
+            <a href="/pages/pages/html_dance.html" onclick="toggleSubMenu('submenu7')">Dance</a>
+            <a href="/pages/pages/html_medite.html" onclick="toggleSubMenu('submenu7')">Medite</a>
+        </div>
+    
+        <a href="#" onclick="toggleSubMenu('submenu8')">Quem Somos?</a>
+        <div class="submenu" id="submenu8">
+            <a href="/pages/pages/html_carol.html">Carol</a>
+            <a href="/pages/pages/html_gabs.html">Gabs</a>
+        </div>
+    
+        <a href="/pages/html_contato.html"><big><big>Contato</big></big></a>
+    </div>
 
-
-<div class="w3-row w3-padding-64" id="home">
-  <div class="content">
+<div class="content">
     <blockquote class="citacao">
-        <table border="0" width="1300" heigth="400" align="center">
+        <table border="0" width="1300" height="400" align="center">
             <tr>
-                <td align="center" width="300" height="500"><img src="urso1.svg" width="300" heigth="500"></td>
-             <td width="500" heigth="400">
+                <td align="center" width="300" height="500"><img src="/img/urso1.svg" width="300" height="500"></td>
+             <td width="500" height="400">
               <p class="texto-com-sombra">
-                <p>- Oie, eu sou o Bob, seu Dream Builder (Construtor de Sonhos)!</p>
-                <br>
-                <p>- Nesse site, realizarei o seu sonho de ser Fatec!</p>
-                <br>
-                <p>- Lembre-se que, nesse processo, funciona como uma via de mão dupla.</p>
-                <br>
-                <p>- Te dou os recursos, e você os torna realidade!</p>
-                <br>
-                <p>- Vai ser uma jornada incrível. Vamos nessa?!</p></p>
+                <div class="container">
+                  <div id="textAnimation">
+                    <p>- Finalizamos a nossa primeira missão, descobrir o seu lugar na Fatec!</p>
+                    <p>- Mas agora, precisamos dar um novo passo...</p>
+                    <p>- Se você estiver perdido(a), sem saber como começar a estudar &#128556;</p>
+                    <p>- Relaxe, preparei um Cronograma de Estudos pra você!
+                      <br>Escolha o que se adequar a sua situação e a sua realidade.</p>
+                    <p>-  Lembre de salvar o PDF para editar como quiser e 
+                      <br> para não perder o Cronograma. Vamos?!</p>
+                  </div>
+                </div>
+                <script src="/pages/cronograma_script.js"></script>
+              </p>
              </td>
-             
             </tr>
           </table>
-        
     </blockquote>
-  </div></div>
- 
-  
-    
-  </div>
 </div>
-</body>
-</html> 
+    <div class=content>
+     <p>Clique nesse coração se estiver vendo essa página no Mês de Abril:</p>
+     <td align="center" width="150"><a href="/pages/Abril.pdf" title"Abril" class="icon-button"><img src="/pages/img/abrilll.png" width="150" height="150"></a><td>
 
-<!-- Footer -->
-<div class="w3-row w3-padding-64" id="footer">
-  <footer class="footer">
-      <div class="footer-content">
-        <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
-      </div>
-  </div>
-    </footer>
+      <p>Clique nesse coração se estiver vendo essa página no Mês de Maio:</p>
+      <td align="center" width="150"><a href="/pages/Maio.pdf" title"Maio" class="icon-button"><img src="/pages/img/maiooo.png" width="150" height="150"></a><td>
+
+      <p>Clique nesse coração se estiver vendo essa página no Mês de Junho:</p>
+      <td align="center" width="150"><a href="/pages/Junho.pdf" title"Junho" class="icon-button"><img src="/pages/img/junhooo.png" width="150" height="150"></a><td>
+    </div>
+
+</body>
+<footer class="footer">
+    <div class="w3-row w3-padding-64" id="footer">
+        <div class="footer-content">
+          <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
+        </div>
+    </div>
+  </footer>
+</html>
