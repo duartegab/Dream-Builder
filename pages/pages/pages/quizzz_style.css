@@ -1,0 +1,68 @@
+.quiz-container {
+    align-items: center;
+    justify-content: center;
+    background: rgb(218, 110, 151);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    text-align: center;
+}
+
+.quiz-container h1 {
+    margin-bottom: 20px;
+    color: rgb(247, 247, 247);
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.question {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.answers {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 0px;
+}
+
+button {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.8);
+    background: #41052d;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b0000;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
