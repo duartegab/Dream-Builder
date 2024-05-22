@@ -2,11 +2,11 @@ const questions = [
     {
         question: "1. Qual objetivo de carreira te atrai mais?",
         answers: {
-            ADS: "Criar, projetar, desenvolver e configurar programas e sistemas;",
-            DSM: "Projetar, desenvolver e testar software;",
-            GE: "Definir objetivos empresariais e criar estratégias eficientes;",
-            GPI: "Melhorar qualidade e produtividade na produção industrial;",
-            GRH: "Planejar e atuar na gestão de pessoas."
+            ADS: "(A) Criar, projetar, desenvolver e configurar programas e sistemas;",
+            DSM: "(B) Projetar, desenvolver e testar software;",
+            GE: "(C) Definir objetivos empresariais e criar estratégias eficientes;",
+            GPI: "(D) Melhorar qualidade e produtividade na produção industrial;",
+            GRH: "(E) Planejar e atuar na gestão de pessoas."
         },
     },
     {
