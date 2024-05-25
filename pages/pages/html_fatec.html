@@ -149,7 +149,6 @@
     </footer>
 
     <script>
-        // Funções de alternância de menu
         function toggleSubMenu(id) {
             var submenu = document.getElementById(id);
             if (submenu.style.display === "none") {
@@ -168,13 +167,12 @@
             }
         }
 
-        // Função para animação de texto
         document.addEventListener("DOMContentLoaded", function() {
             var paragraphs = document.querySelectorAll("#textAnimation p");
             paragraphs.forEach(function(paragraph, index) {
                 setTimeout(function() {
                     paragraph.style.opacity = 1;
-                }, index * 5000); // Delay each paragraph by 5 seconds
+                }, index * 5000); 
             });
         });
 
@@ -207,8 +205,8 @@ const texts = [
 let currentTextIndex = 0;
 let currentCharIndex = 0;
 
-const typingSpeed = 100; // Velocidade de digitação em milissegundos
-const paragraphPause = 1000; // Pausa entre parágrafos em milissegundos
+const typingSpeed = 100; 
+const paragraphPause = 1000; 
 
 function type() {
     if (currentTextIndex < texts.length) {
@@ -220,7 +218,6 @@ function type() {
             currentCharIndex++;
             setTimeout(type, typingSpeed);
         } else {
-            // Pausar após terminar de exibir o parágrafo atual
             currentTextIndex++;
             currentCharIndex = 0;
             setTimeout(type, paragraphPause);
@@ -228,7 +225,6 @@ function type() {
     }
 }
 
-// Iniciar a animação de digitação
 type();
 
 
