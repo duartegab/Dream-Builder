@@ -1,24 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronômetro(Método Pomodoro)</title>
-    <link rel="stylesheet" type="text/css" href="/pages/pages/pages/cronometro_style.css" media="screen"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="cronometro_style.css">
+    <title>Cronômetro</title>
 </head>
+
 <body>
-    <div class="section-container">
-        <button id="focus" class="btn btn-timer btn-focus">Exercícios</button>
-        <button id="shortbreak" class="btn btn-shortbreak">Pausa</button>
-        <button id="longbreak" class="btn btn-longbreak">Prova</button>
-    </div>
-    <div class="time-btn-container">
-        <span id="time"></span>
-        <div class="btn-container">
-            <button id="btn-start" class="show">Começar</button><button id="btn-pause" class="hide">Pausar</button><button id="btn-reset" class="hide"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+    <div class="container">
+        <div class="alarm-container">
+            <img src="cronometro/relogio_branco.png" class="alarm-img" alt="">
+            <h1>00:00:00 PM</h1>
+            <div class="content">
+                <div class="alarm-controls">
+                    <select>
+                        <option value="Hour" selected disabled hidden> Horas </option>
+                    </select>
+                </div>
+
+                <div class="alarm-controls">
+                    <select>
+                        <option value="Minute" selected disabled hidden> Minutos </option>
+                    </select>
+                </div>
+
+                <div class="alarm-controls">
+                    <select>
+                        <option value="AM/PM" selected disabled hidden> AM/PM </option>
+                    </select>
+                </div>
+            </div>
+            <button>Ativar Alarme</button>
+            <audio id="ringTone" src="cronometro/ringtone.mp3" preload="auto"></audio>
         </div>
     </div>
-    
-    <script src="/pages/pages/pages/cronometro_script.js"></script>
+
+    <script src="cronometro_script.js"></script>
 </body>
+
 </html>
