@@ -11,7 +11,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);
+    margin-left: -500px;
+    margin-top: -150px;
 }
 
 main {
@@ -38,20 +39,20 @@ h1 {
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #adace9;
-    font-family: 'Arial'; /* Altera a fonte dos botões */
+    background: #bc78db;
+    font-family: 'Arial'; 
     font-weight: bold;
-    color: #35323b; /* Altera a cor dos botões */
+    color: #35323b; 
 }
 
 .currentPlayer {
     text-align: center;
-    font-family: 'Georgia', serif; /* Altera a fonte do h2 */
-    color: whitesmoke; /* Altera a cor do h2 */
-    margin-top: 10px; /* Adiciona margem superior */
+    font-family: 'Georgia', serif; 
+    color: whitesmoke; 
+    margin-top: 10px; 
 }
 
 .currentPlayer span {
-    color: whitesmoke; /* Cor diferenciada para o jogador atual */
+    color: whitesmoke; 
     font-family: georgia;
 }

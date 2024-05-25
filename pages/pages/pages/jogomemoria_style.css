@@ -3,9 +3,8 @@
     margin: 0;
     box-sizing: border-box;
   }
-  body {
-    background: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);  }
   
+
   .head {
     max-width: 480px;
     margin: auto;

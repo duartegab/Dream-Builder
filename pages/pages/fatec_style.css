@@ -130,7 +130,7 @@ body {
   }
 
   .content2 {
-    background-image: url(/pages/pages/img/carta3.jpg);
+    background: linear-gradient(to bottom,rgb(2,11,39),rgb(0, 0, 0)); 
     margin-left: 242px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -140,6 +140,11 @@ body {
     font-size: 18px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  .content2 p{
+    color: whitesmoke;
+  }
+     
      
 
 

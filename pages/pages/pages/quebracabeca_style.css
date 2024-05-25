@@ -10,7 +10,8 @@ body {
     align-items: center;
     min-height: 100vh;
     gap: 50px;
-    background: linear-gradient(rgb(8, 1, 39), #362f55, #5b5da1, #8a92b4);
+    margin-top: -100px;
+
 }
 
 .drag {
@@ -31,6 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .images {
@@ -39,6 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .images img {
@@ -49,17 +52,19 @@ body {
 
 .reset {
     position: absolute;
-    bottom: 1%;
+    bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 25px;
     border: none;
-    background: rgb(8, 1, 48);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+    background: rgb(127, 35, 180);
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
+
 }
 
 .board {

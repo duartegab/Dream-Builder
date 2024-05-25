@@ -13,14 +13,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkorchid;
 }
 
 .alarm-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 450px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     flex-direction: column;
     background: #6A1B9A;

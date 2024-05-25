@@ -133,14 +133,14 @@ body {
     padding-top: 2%;
       width: 600px;
       height: 120px;
-      background-color: #cce3f3;
+      background-color: rgb(6, 21, 65);
       transition: width 2s, height 2s, transform 2s;
       box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     
     }
 
     .div21 p {
-        color: black;
+        color: whitesmoke;
         text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
         text-align: justify;
     }
@@ -155,7 +155,7 @@ body {
     }
 
     .div21:hover p {
-        color: black;
+        color: whitesmoke;
         text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
         text-align: justify;
     }
