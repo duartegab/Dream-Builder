@@ -4,8 +4,9 @@ const currentTime = document.querySelector("h1"),
     btnSetAlarm = document.querySelector('button'),
     ringTone = document.getElementById("ringTone");
 
-let initialTime = null;  // Variável para armazenar o tempo inicial
-let alarmTime, minutesLeft, isAlarmSet;
+let alarmTime = null,
+    isAlarmSet = false,
+    timerId = null;
 
 setInterval(() => {
     let date = new Date(),
@@ -19,35 +20,31 @@ setInterval(() => {
         ampm = "PM";
     }
 
-    hours = hours == 0 ? hours = 12 : hours;
+    hours = hours == 0 ? 12 : hours;
     hours = hours < 10 ? "0" + hours : hours;
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
     currentTime.innerHTML = `${hours}:${minutes}:${seconds} ${ampm}`;
 
-    // Comparar tempo atual com o tempo inicial para verificar se um minuto completo se passou
-    if (isAlarmSet && initialTime) {
-        let currentTime = new Date().getTime();
-        let elapsed = Math.floor((currentTime - initialTime) / 1000);
-        if (elapsed >= 60) {
+    // Verificação de alarme
+    if (isAlarmSet && alarmTime) {
+        let now = `${hours}:${minutes} ${ampm}`;
+        if (now === alarmTime) {
             ringTone.play();
             ringTone.loop = true;
             isAlarmSet = false;
         }
     }
-
 }, 1000);
 
 for (let i = 12; i > 0; i--) {
-    i = i < 10 ? `0${i}` : i;
-    let option = `<option value="${i}">${i}</option>`;
+    let option = `<option value="${i < 10 ? `0${i}` : i}">${i < 10 ? `0${i}` : i}</option>`;
     selectMenu[0].firstElementChild.insertAdjacentHTML("afterend", option);
 }
 
 for (let i = 59; i >= 0; i--) {
-    i = i < 10 ? `0${i}` : i;
-    let option = `<option value="${i}">${i}</option>`;
+    let option = `<option value="${i < 10 ? `0${i}` : i}">${i < 10 ? `0${i}` : i}</option>`;
     selectMenu[1].firstElementChild.insertAdjacentHTML("afterend", option);
 }
 
@@ -59,10 +56,9 @@ for (let i = 2; i > 0; i--) {
 
 function setAlarm() {
     if (isAlarmSet) {
-        alarmTime = "";
-        initialTime = null;
+        alarmTime = null;
         ringTone.pause();
-        ringTone.currentTime = 0;  // Reset the audio to the beginning
+        ringTone.currentTime = 0;
         content.classList.remove("disable");
         btnSetAlarm.innerHTML = "Ativar Alarme";
         return isAlarmSet = false;
@@ -72,17 +68,11 @@ function setAlarm() {
         minutes = selectMenu[1].value,
         ampm = selectMenu[2].value;
 
-    if (hours === "Hour" && minutes !== "Minute") {
-        let currentMinutes = new Date().getMinutes();
-        minutesLeft = (currentMinutes + parseInt(minutes)) % 60;
-        initialTime = new Date().getTime();  // Armazenar o tempo inicial em milissegundos
-    } else if (hours.includes("Hour") || minutes.includes("Minute") || ampm.includes("AM/PM")) {
+    if (hours === "Hour" || minutes === "Minute" || ampm === "AM/PM") {
         return alert("Insira horas e minutos válidos para ativar o alarme, por favor!");
-    } else {
-        // Set full alarm with hours and minutes
-        alarmTime = `${hours}:${minutes} ${ampm}`;
     }
 
+    alarmTime = `${hours}:${minutes} ${ampm}`;
     isAlarmSet = true;
     content.classList.add("disable");
     btnSetAlarm.innerHTML = "Desativar Alarme";
