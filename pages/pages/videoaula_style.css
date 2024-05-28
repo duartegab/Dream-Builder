@@ -1,0 +1,287 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom left, #3c0541, rgb(2, 11, 39));
+    overflow-x: hidden;
+    padding-top: 60px;
+    font-family: Georgia;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    font-family: Georgia;
+}
+
+.sidenav a:hover {
+    background-color: #d7cce0;
+}
+
+.submenu {
+    padding-left: 15px;
+    display: none;
+}
+
+.submenu a {
+    font-size: 16px;
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.submenu a:hover {
+    color: #d7cce0;
+}
+
+.subsubmenu {
+    padding-left: 30px;
+    display: none;
+}
+
+.subsubmenu a {
+    font-size: 14px;
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.subsubmenu a:hover {
+    color: #d7cce0;
+}
+
+.content {
+    margin-left: 242px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(23, 3, 59), rgb(148, 13, 182), #3c0541, #20030e);
+}
+
+.content h1 {
+    color: #f1f1f1;
+}
+
+.content h2 {
+    color: #f1f1f1;
+}
+
+.content p {
+    color: #f1f1f1;
+}
+
+.content ul li {
+    color: #f1f1f1;
+    font-size: 15.1px;
+    margin-left: -2px;
+}
+
+.highlight {
+    background: rgba(255, 255, 255, 0.952); 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin: 2px 0; 
+}
+
+
+.header {
+    background: linear-gradient(to top, #3c0541, rgb(2, 11, 39));
+    width: 100%;
+    height: 180px;
+    margin-left: 242px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #3c0541, rgb(2, 11, 39));
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-left: 242px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    color: whitesmoke;
+}
+
+.footer-content a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+#textAnimation p {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+
+.balloon {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: left;
+    margin-left: 200px;
+}
+
+.balloon > div {
+    width: 104px;
+    height: 140px;
+    border-radius: 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transform-origin: bottom center;
+}
+
+
+.balloon > div span a {
+    color: white;
+    text-decoration: none; 
+}
+
+.balloon > div span a:hover {
+    color: white; 
+    text-decoration: none; 
+}
+
+.balloon > div:nth-child(1) {
+    background: #FF4000;
+    left: 300px;
+    box-shadow: inset 10px 10px 10px #8A2908;
+    animation: balloon1 6s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(2) {
+    background: #08088A;
+    left: 400px;
+    box-shadow: inset 10px 10px 10px #0A0A2A;
+    animation: balloon2 6s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(3) {
+    background: #FFBF00;
+    left: 500px;
+    box-shadow: inset 10px 10px 10px #5E610B;
+    animation: balloon4 6s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(4) {
+    background: #B45F04;
+    left: 600px;
+    box-shadow: inset 10px 10px 10px #3B240B;
+    animation: balloon1 5s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(5) {
+    background: #FE2E9A;
+    left: 700px;
+    box-shadow: inset 10px 10px 10px #8A084B;
+    animation: balloon3 5s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(6) {
+    background: #0080FF;
+    left: 800px;
+    box-shadow: inset 10px 10px 10px #084B8A;
+    animation: balloon2 3s ease-in-out infinite;
+}
+
+
+.balloon > div:nth-child(7) {
+    background: #0B6121;
+    left: 900px;
+    box-shadow: inset 10px 10px 10px #0A2A12;
+    animation: balloon1 4s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(8) {
+    background: #DF0101;
+    left: 1000px;
+    box-shadow: inset 10px 10px 10px #610B0B;
+    animation: balloon2 4s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(9) {
+    background: #8A0868;
+    left: 1100px;
+    box-shadow: inset 10px 10px 10px #3B0B2E;
+    animation: balloon3 4s ease-in-out infinite;
+}
+
+.balloon > div:nth-child(10) {
+    background: #01DF74;
+    left: 1200px;
+    box-shadow: inset 10px 10px 10px #0B6138;
+    animation: balloon4 4s ease-in-out infinite;
+}
+
+.balloon > div:before {
+    color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: -11px;
+    left: 52px;
+    content: "▲";
+    font-size: 1em;
+}
+
+span {
+    font-size: 4.8em;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -27px;
+}
+
+@keyframes balloon1 {
+    0%, 100% { transform: translateY(0) rotate(-6deg); }
+    50% { transform: translateY(-20px) rotate(8deg); }
+}
+
+@keyframes balloon2 {
+    0%, 100% { transform: translateY(0) rotate(6deg); }
+    50% { transform: translateY(-30px) rotate(-8deg); }
+}
+
+@keyframes balloon3 {
+    0%, 100% { transform: translate(0, -10px) rotate(6deg); }
+    50% { transform: translate(-20px, 30px) rotate(-8deg); }
+}
+
+@keyframes balloon4 {
+    0%, 100% { transform: translate(10px, -10px) rotate(-8deg); }
+    50% { transform: translate(-15px, 20px) rotate(10deg); }
+}

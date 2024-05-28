@@ -128,3 +128,24 @@ text-decoration: underline;
   opacity: 0;
   transition: opacity 1s ease;
 }
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+  text-align: justify;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 5s ease-out forwards;
+  opacity: 0;
+}
