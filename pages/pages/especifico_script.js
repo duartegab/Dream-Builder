@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     paragraphs.forEach(function(paragraph, index) {
       setTimeout(function() {
         paragraph.style.opacity = 1;
-      }, index * 5000); 
+      }, index * 3000); 
     });
 
     

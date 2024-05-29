@@ -65,6 +65,7 @@ body {
   margin-left: 242px;
   margin-top: 2px;
   margin-bottom: 2px;
+  width: 100%;
   padding: 20px;
   background: linear-gradient(to bottom right, rgb(23, 3, 59), rgb(182, 13, 106), #41052d, #12022c);
 }
@@ -135,4 +136,25 @@ body {
 
 .icon-button img:hover {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+  text-align: justify;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 3s ease-out forwards;
+  opacity: 0;
 }

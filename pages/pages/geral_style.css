@@ -66,6 +66,16 @@ body {
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 20px;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(23, 3, 59), rgb(182, 13, 106), #41052d, #12022c);
+}
+
+.content2 {
+    margin-left: 242px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 20px;
+    width: 100%;
     background: linear-gradient(to bottom right, rgb(23, 3, 59), rgb(182, 13, 106), #41052d, #12022c);
 }
 
@@ -79,6 +89,12 @@ body {
 
 .content p {
     color: #f1f1f1;
+}
+
+.content2 p {
+    color: #f1f1f1;
+    text-align: center;
+    margin-left: -250px;
 }
 
 .header {
@@ -136,3 +152,23 @@ body {
 
 }
 
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+    text-align: justify;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 3s ease-out forwards;
+    opacity: 0;
+  }

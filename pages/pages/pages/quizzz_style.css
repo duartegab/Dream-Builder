@@ -3,10 +3,11 @@
     justify-content: center;
     background: rgb(218, 110, 151);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     width: 670px;
     text-align: center;
+    margin-left: 50px; 
 }
 
 .quiz-container h1 {
