@@ -129,7 +129,7 @@ text-decoration: underline;
   transition: opacity 1s ease;
 }
 
-.fade-in.show {
+.fade-in.show{
   opacity: 1;
   transform: translateY(0);
   text-align: justify;
@@ -146,6 +146,6 @@ text-decoration: underline;
 }
 
 .fade-in {
-  animation: fadeIn 5s ease-out forwards;
+  animation: fadeIn 3s ease-out forwards;
   opacity: 0;
 }
