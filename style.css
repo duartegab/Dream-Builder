@@ -194,7 +194,7 @@ text-decoration: underline;
 
 .menu ul li {
   display: inline;
-  margin-right: 13px;
+  margin-right: 14px;
   box-shadow: 3px 3px 10px rgba(0, 0.2, 0.5, 1);
  padding: 1px;
 }
