@@ -68,7 +68,7 @@ body {
     margin-bottom: 2px;
     padding: 20px;
     background:linear-gradient(to bottom right,rgb(23, 3, 59),rgb(13, 100, 182), #052941, #12022c);   
-    width: 100%;
+    width: 147%;
     height: 100%;
 }
 
@@ -82,25 +82,65 @@ body {
 
 .content p {
     color: #f1f1f1;
+    margin-left: -250px;
+
 }
+
+.content img {
+  margin-left: -500px;
+}
+
+.content1 {
+  margin-left: 242px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 20px;
+  background:linear-gradient(to bottom right,rgb(23, 3, 59),rgb(13, 100, 182), #052941, #12022c);   
+  width: 147%;
+  height: 100%;
+}
+
+.content1 h1 {
+  color: #f1f1f1;
+}
+
+.content1 h2 {
+  color: #f1f1f1;
+}
+
+.content1 p {
+  color: #f1f1f1;
+}
+
+.content1 img {
+  margin-left: -150px;
+}
+
 
 .header {
     background: linear-gradient(to top,#092a5c,rgb(2, 11, 39));
-    width: 100%;
+    width: 150%;
     height: 180px;
     margin-left: 242px;
     color: white; 
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center; 
+    text-align: left; 
     
 }
 
+.header h1{
+margin-left: -450px;
+}
+.header h2 {
+margin-left: -600px;
+}
 .footer {
-    background: linear-gradient(to bottom,#092a5c,rgb(2, 11, 39));  width: 100%;
+    background: linear-gradient(to bottom,#092a5c,rgb(2, 11, 39));  
+    width: 150%;
   height: 40px;
-  text-align: center; 
+  text-align: left; 
   margin-left: 242px;
 
 }
@@ -109,6 +149,7 @@ body {
   max-width: 1200px; 
   margin: 0 auto; 
   padding-top: 10px; 
+  margin-left: 350px;
 }
 
 .footer-content p {
