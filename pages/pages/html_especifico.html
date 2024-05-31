@@ -3,21 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/pages/pages/geral_style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/pages/pages/especifico_style.css" media="screen"/>
     <link rel="icon" type="image/x-ico" href="/img/polar.ico">
     <title>dream builder.</title>
+
     <header class="header">
         <div class="container">
-            <div class="header-cont">
+          <div class="header-left">
+          <img src="/img/urso4.png" width="200" heigh="200" alt="Bob">
+      </div>
+
+            <div class="header-right">
                 <div class="header-text">
                     <h1 class="texto-com-sombra"><b>DREAM BUILDER</b></h1>
                     <h2 class="texto-com-sombra"><b>CONSTRUINDO O SEU SONHO DE SER FATEC</b></h2>
                 </div>
             </div>
         </div>
-    </header>
+      </header>
+
     <title>Animando Texto</title>
-    <link rel="stylesheet" href="/pages/pages/geral_style.css">     
+    <link rel="stylesheet" href="/pages/pages/especifico_style.css">     
 </head>
 <body>
 
@@ -88,6 +94,16 @@
         <a href="/pages/html_contato.html"><big><big>Contato</big></big></a>
     </div>
 
+    <nav class="menu">
+        <ul>
+            <li><a href="/pages/pages/html_especifico.html">BOB</a></li>
+            <li><a href="#questoes">QUESTÕES</a></li>
+            <li><a href="#redacao">REDAÇÃO</a></li>
+            <li><a href="#footer">DREAM BUILDER</a></li>
+        </ul>
+      </nav>
+
+      <div class="w3-row w3-padding-64" id="bob">
     <div class="content">
         <blockquote class="citacao">
             <table border="0" width="1300" height="400" align="center">
@@ -111,7 +127,9 @@
                 </tr>
             </table>
         </blockquote>
-    </div>
+    </div></div>
+
+    <div class="w3-row w3-padding-64" id="questoes"></div>
     <div class="content">
         <p>Recomendo que passe o mouse sobre cada coluna, para ter uma noção melhor sobre determinado desempenho de prova.</p>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -119,6 +137,8 @@
             <canvas id="chart1"></canvas>
         </div>
     </div>
+
+    <div class="w3-row w3-padding-64" id="redacao"></div>
     <div class="content">
         <p>Recomendo que passe o mouse sobre cada coluna, para ter uma noção melhor sobre determinado desempenho de redação.</p>
 
@@ -129,11 +149,13 @@
     </div>
     <script src="/pages/pages/especifico_script.js"></script>
 </body>
+
+<div class="w3-row w3-padding-64" id="#footer">
 <footer class="footer">
     <div class="w3-row w3-padding-64" id="footer">
         <div class="footer-content">
             <p class="texto-com-sombra">Site criado por <a href="https://github.com/carolineavelar"><b>Caroline Avelar</b></a> e <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab/dreambuilder">Projeto - <b>Dream Builder.</b></a></p>
         </div>
     </div>
-</footer>
+</footer></div>
 </html>
