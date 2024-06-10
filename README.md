@@ -72,3 +72,10 @@ Cada uma dessas cores pode ser utilizada estrategicamente em espaços de estudo 
 
 
 ![PALETA1](https://github.com/duartegab/Dream-Builder/blob/main/paleta1.png)
+
+
+
+## UX (User Experience) 🤩🎉
+Outro ponto fundamental do nosso projeto é saber a opnião de nossos vestibulandos, isso nos ajuda a entender se estamos indo na direção correta e como podemos melhorar e otimizar alguns processos. Com isso, a nossa Vestibulanda Maria Laura já aproveitou para deixar o seu feedback após utilizar o 'Dream Builder', se liga:
+
+Para acessar o Feedback, é só clicar em [Feedback](https://github.com/duartegab/Dream-Builder/blob/main/video%20maria.mp4) e depois em View Raw (o vídeo será baixado em seu navegador). 
