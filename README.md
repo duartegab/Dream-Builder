@@ -12,7 +12,9 @@ No CSS, além de deixar tudo harmônico e colorido, fizemos algumas animações 
 Por fim, utilizamos recursos simples de JavaScript, para animações e resultados mais otimizados para o próprio vestibulando!
 
 ### Site 🚀
-Quer ver o resultado de todo esse aprendizado? Clique no [Site](https://projeto-dream-buider.netlify.app/). Aproveite a experiência!
+Quer ver o resultado de todo esse aprendizado? Clique no [Site](https://projeto-dream-buider.netlify.app/). 
+
+Aproveite a experiência!
 
 
 
