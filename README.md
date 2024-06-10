@@ -128,4 +128,11 @@ Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links 
 ## Autores ✒️
 
 [Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Criação da Logo, Documentação, Elevator Pitch.
+
 [Caroline Avelar](https://github.com/carolineavelar/) - Criação dos Jogos e Alarme no Site, Elaboração do Low-fi e High-Fi, Documentação, Elevator Pitch.
+
+
+
+## 📄 Licença
+
+Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab) - veja o arquivo [LICENSE.md](https://github.com/duartegab/Dream-Builder/licenca) para detalhes.
