@@ -52,7 +52,8 @@ As cores desempenham um papel significativo no ambiente de estudo, influenciando
 (img bolinhas)
 
 <br>
-*Roxo Negro* - Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
+
+*Roxo Escuro* - Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
 
 *Azul Marinho* - Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.
 
