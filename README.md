@@ -47,14 +47,14 @@ Quer saber como dimensionar seus rascunhos e telas do site? Só clicar em [Figma
 ### Paleta de Cores 🎨
 Você sabia que a definição de cores é fundamental para a criação de um site?
 Entenda o nosso propósito através de nossas cores:
-<br>
+
 As cores desempenham um papel significativo no ambiente de estudo, influenciando o foco, a produtividade e o bem-estar. Aqui está a relação de algumas cores específicas:
 (img bolinhas)
 
 
 Azul Marinho: Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.
 
-Roxo escuro: Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
+Roxo Escuro: Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
 
 Bordô: Esta cor rica e profunda, uma mistura de vermelho e roxo, pode incentivar a paixão e a energia. No entanto, deve ser usada com moderação, pois cores muito intensas podem distrair.
 
