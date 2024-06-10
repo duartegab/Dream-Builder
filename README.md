@@ -25,10 +25,10 @@ Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os 
 ### Elevator Pitch 🎞️
 Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https://youtu.be/tHEObuMiMG8).
 
-Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [RUF](https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
+Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [Slides](https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
 
 ### Documento RUF 🗃️
-Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar nos [Slides](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
+Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar nos [RUF](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
 
 
 
