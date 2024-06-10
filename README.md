@@ -129,7 +129,7 @@ Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links 
 
 [Caroline Avelar](https://github.com/carolineavelar/) - Criação dos Jogos e Alarme no Site, Elaboração do Low-fi e High-Fi, Documentação, Elevator Pitch.
 
-[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Criação da Logo, Documentação, Elevator Pitch.
+[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Logo, Documentação, Elevator Pitch.
 
 
 
