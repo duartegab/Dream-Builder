@@ -135,4 +135,4 @@ Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links 
 
 ## 📄 Licença
 
-Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab) - veja o arquivo [LICENSE.md](https://github.com/duartegab/Dream-Builder/blob/main/LICENSE) para detalhes.
+Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab) - veja o arquivo [LICENSE.md](https://github.com/duartegab/Dream-Builder/LICENSE) para detalhes.
