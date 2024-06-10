@@ -28,4 +28,4 @@ Quer ver como esse Elevator Pitch funciona na prática? Confira nesse link: (htt
 Material de Apoio (Power Point)
 
 ### Documento RUF 🗃️
-Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar no link: (word).
+Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar no link: (https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
