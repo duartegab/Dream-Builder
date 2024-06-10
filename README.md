@@ -71,4 +71,3 @@ As cores desempenham um papel significativo no ambiente de estudo, influenciando
 Cada uma dessas cores pode ser utilizada estrategicamente em espaços de estudo para criar um ambiente que favoreça o foco, a produtividade e o bem-estar mental.
 
 ![PALETA1](https://github.com/duartegab/Dream-Builder/blob/main/paleta1.png)
-![PALETA2](https://github.com/duartegab/Dream-Builder/blob/main/paleta3.png)
