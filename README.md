@@ -127,9 +127,9 @@ Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links 
 
 ## Autores ✒️
 
-[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Criação da Logo, Documentação, Elevator Pitch.
-
 [Caroline Avelar](https://github.com/carolineavelar/) - Criação dos Jogos e Alarme no Site, Elaboração do Low-fi e High-Fi, Documentação, Elevator Pitch.
+
+[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Criação da Logo, Documentação, Elevator Pitch.
 
 
 
@@ -142,7 +142,9 @@ Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab)
 ## 🎁 Gratidão
 * Agradeço particulamente a minha amiga [Caroline Avelar](https://github.com/carolineavelar/) pela parceria e acreditar no Projeto desde o início, que nossa parceria sempre prevaleça! 🥰
 * Desde já conto o apoio de vocês e peço que nos sigam, para acompanharem junto conosco nossos Projetos Realizados no 2º Semestre em diante)! 📢;
-* Agradeço aos meus professores Márcio Funes, Fernando Martins e Leonardo Raiz que nos instruiu com o projeto. Agradeço também a todos os parceiros do W3 Schools, Canva, YouTube, CodePen e GitHub, que forneceu ideias e materiais de apoio para conseguirmos levantar esse projeto do zero. E a nossa família, amigos, que nos motivam a cada dia mais para entrar no Ramo de Tecnologia da Informação, com o objetivo de construirmos uma carreira estável, sendo profissionais íntegro e inovador. 🫂;
+* Agradeço aos meus professores Márcio Funes, Fernando Martins e Leonardo Raiz que nos instruiu com o projeto; 🦾
+* Agradeço também a todos os parceiros do W3 Schools, Canva, YouTube, CodePen e GitHub, que forneceu ideias e materiais de apoio para conseguirmos levantar esse projeto do zero; 🗻
+* Também agradeço a nossa família, amigos, que nos motivam a cada dia mais para entrar no Ramo de Tecnologia da Informação, com o objetivo de construirmos uma carreira estável, sendo profissionais íntegro e inovador. 🫂
 
 ---
-⌨️ com ❤️ por [Gabriel Duarte](https://github.com/duartegab) e [Caroline Avelar](https://github.com/carolineavelar/) 😊
+⌨️ com ❤️ por [Caroline Avelar](https://github.com/carolineavelar/)  e  [Gabriel Duarte](https://github.com/duartegab) 😊
