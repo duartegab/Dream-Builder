@@ -52,14 +52,10 @@ As cores desempenham um papel significativo no ambiente de estudo, influenciando
 (img bolinhas)
 
 
-Azul Marinho: Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.
-
-Roxo Escuro: Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
-
-Bordô: Esta cor rica e profunda, uma mistura de vermelho e roxo, pode incentivar a paixão e a energia. No entanto, deve ser usada com moderação, pois cores muito intensas podem distrair.
-
-Azul Petróleo: Com uma mistura de azul e verde, essa cor traz uma sensação de equilíbrio e sofisticação. É ideal para espaços onde se precisa de foco e criatividade, sem causar estresse.
-
+Azul Marinho: Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.<br>
+Roxo Escuro: Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.<br>
+Bordô: Esta cor rica e profunda, uma mistura de vermelho e roxo, pode incentivar a paixão e a energia. No entanto, deve ser usada com moderação, pois cores muito intensas podem distrair.<br>
+Azul Petróleo: Com uma mistura de azul e verde, essa cor traz uma sensação de equilíbrio e sofisticação. É ideal para espaços onde se precisa de foco e criatividade, sem causar estresse.<br>
 Branco Fumaça: Uma tonalidade suave de branco acinzentado, o branco fumaça é perfeito para criar um ambiente limpo e organizado. Ele reflete a luz, tornando os espaços mais claros e, assim, ajudando a manter a mente alerta e focada.
 
 
