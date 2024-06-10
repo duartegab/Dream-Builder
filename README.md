@@ -12,7 +12,7 @@ No CSS, além de deixar tudo harmônico e colorido, fizemos algumas animações 
 Por fim, utilizamos recursos simples de JavaScript, para animações e resultados mais otimizados para o próprio vestibulando!
 
 ### Site 🚀
-Quer ver o resultado de todo esse aprendizado? Entre nesse link para acessar o nosso site (https://projeto-dream-buider.netlify.app/). Aproveite a experiência!
+Quer ver o resultado de todo esse aprendizado? Entre nesse link para acessar o nosso site [Site](https://projeto-dream-buider.netlify.app/). Aproveite a experiência!
 
 
 
@@ -23,9 +23,9 @@ Sendo assim, analisamos o nosso projeto de maneira mais abrangente pois, além d
 Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os seus modelos de Processos). Também aprendemos sobre Regras de Negócio, Requisitos Funcionais e Não Funcionais, o Modelo Canvas e toda a Documentação de Software necessária para fazer o negócio sair do papel e se tornar um Software assertivo. Por fim, também aprendemos sobre o Elevator Pitch, também fundamental para nosso Projeto, através dele, entendemos os problemas, soluções e diferenciais que apresentamos no decorrer do mesmo.
 
 ### Elevator Pitch 🎞️
-Quer ver como esse Elevator Pitch funciona na prática? Confira nesse link: (https://youtu.be/tHEObuMiMG8).
+Quer ver como esse Elevator Pitch funciona na prática? Confira nesse link: [Vídeo](https://youtu.be/tHEObuMiMG8).
 
-Para ver o material de apoio (Slides do Elevator Pitch), é só clicar no link: (https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
+Para ver o material de apoio (Slides do Elevator Pitch), é só clicar no link: [RUF](https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
 
 ### Documento RUF 🗃️
-Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar no link: (https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
+Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar no link: [Slides](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
