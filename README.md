@@ -29,3 +29,40 @@ Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [
 
 ### Documento RUF 🗃️
 Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar aqui em [Slides](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
+
+
+
+## Dream-Builder no Design Digital 🖱️📱
+Por fim, também tivemos a disciplina de Design Digital ao longo do Semestre. Ela foi essencial para o nosso projeto, com ela afloramos toda a nossa criatividade, além de entender diversos aspectos essenciais que fazem de um Desenvolvedor um Designer para suas próprias projeções.
+No ínicio do Semestre, aprendemos inúmeros conceitos de luz, sombra e texturas. Outro conceito abordado foi a Psicologia das Cores. Além dos trabalhos práticos realizados, entendemos como essas relações são fundamentais para harmonizar qualquer elemento digital.
+Também aprendemos sobre Vetorização e Logos, ela foi essencial para criarmos nosso mascote (Bob), através da mescla de linhas e formas.
+Por fim, aprendemos sobre dimensão e proporção de telas. Essa proporção foi a âncora para tirar o projeto do papel e iniciarmos nele de fato!
+
+### Criação da Logo / Bob 🐻‍❄️
+Oie, antes de me tornar um mascote, já fui uma logo e um vetor, sabia? Se liga nas imagens abaixo.
+
+### Low-fi | High-fi 📝
+Quer saber como dimensionar seus rascunhos e telas do site? Só clicar em [Figma](https://www.figma.com/design/J4WIfPUStwMm0E4vVluFf0/PI?node-id=0-1&t=xKOdq9LGV1Osl5Kg-1).
+
+### Paleta de Cores 🎨
+Você sabia que a definição de cores é fundamental para a criação de um site?
+Entenda o nosso propósito através de nossas cores:
+
+As cores desempenham um papel significativo no ambiente de estudo, influenciando o foco, a produtividade e o bem-estar. Aqui está a relação de algumas cores específicas:
+(img bolinhas)
+
+
+Azul Marinho: Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.
+
+Roxo escuro: Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
+
+Bordô: Esta cor rica e profunda, uma mistura de vermelho e roxo, pode incentivar a paixão e a energia. No entanto, deve ser usada com moderação, pois cores muito intensas podem distrair.
+
+Azul Petróleo: Com uma mistura de azul e verde, essa cor traz uma sensação de equilíbrio e sofisticação. É ideal para espaços onde se precisa de foco e criatividade, sem causar estresse.
+
+Branco Fumaça: Uma tonalidade suave de branco acinzentado, o branco fumaça é perfeito para criar um ambiente limpo e organizado. Ele reflete a luz, tornando os espaços mais claros e, assim, ajudando a manter a mente alerta e focada.
+
+
+Cada uma dessas cores pode ser utilizada estrategicamente em espaços de estudo para criar um ambiente que favoreça o foco, a produtividade e o bem-estar mental.
+
+(imagens)
