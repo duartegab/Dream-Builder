@@ -79,3 +79,34 @@ Cada uma dessas cores pode ser utilizada estrategicamente em espaços de estudo 
 Outro ponto fundamental do nosso projeto é saber a opnião de nossos vestibulandos, isso nos ajuda a entender se estamos indo na direção correta e como podemos melhorar e otimizar alguns processos. Com isso, a nossa Vestibulanda Maria Laura já aproveitou para deixar o seu feedback após utilizar o 'Dream Builder', se liga:
 
 Para acessar o Feedback, é só clicar em [Feedback](https://github.com/duartegab/Dream-Builder/blob/main/video%20maria.mp4) e depois em View Raw (o vídeo será baixado em seu navegador). 
+
+
+
+## Materiais de Referência 📦
+
+Ao decorrer do site, colocamos vários canais, sites e recursos de referência no site para engajar o estudo dos estudantes. Aqui abaixo, segue os links de cada material usado:
+
+* [Site Fatec](https://www.vestibularfatec.com.br/home/) - Usado como base para descobrir a hustória da Fatec, e a disponibilização das provas de gabaritos.
+* [Canal Fatec](https://www.youtube.com/@fatecfrancaoficial) - Utilizado para disponibilizar os depoimentos dos alunos e ex-alunos.
+* [Site Objetivo](https://www.curso-objetivo.br/vestibular/resolucao-comentada/fatec.aspx) - Disponibilização das Correções Comentadas das Provas.
+* [Correcao Prova 9](https://www.youtube.com/live/bjoQow1KhbU?start=0) - Correção Comentada da Prova 9.
+* [Correcoes 10, 11, 12](https://www.youtube.com/@fatecpragente) - Disponibilização das Correções Comentadas das Provas 10, 11 e 12.
+* [Glau](https://app.glau.com.vc/) - Plataforma Glau (AI para Redação).
+* [ChatGPT](https://chatgpt.com) - ChatGPT, usado para a correção das Redações.
+* [Redação YT](https://youtube.com/playlist?list=PLPwuAOl5BHi8UTmce6l7kWwDVj2oMYPv2&si=Q8pchD-34KDucowj) - Playlist do YouTube disponibilizada para dicas de redação.
+* [Redação YT](https://youtube.com/playlist?list=PLIdiUrsoqaXNBauINdtVuxQqSqDvGKp53&si=_9TLqbKzu6l1lkAV) - Playlist do YouTube disponibilizada para dicas de redação.
+* [Redação IG](https://www.instagram.com/redacaonline/) - Instagram disponibilizado para dicas de redação.
+* [Redação IG](https://www.instagram.com/redaflix/) - Instagram disponibilizado para dicas de redação.
+* [Redação Site](https://blog.imaginie.com.br/redacao/) - Site disponibilizado para dicas de redação.
+* [Redação Site](https://mundoeducacao.uol.com.br/redacao) - Site disponibilizado para dicas de redação.
+* [RachaCuca](https://rachacuca.com.br/educacao/vestibular/) - Site disponibilizado para resolução de exercícios.
+* [Canal Mat](https://www.youtube.com/@MarcosAba) - Canal do YouTube disponibilizado para videoaulas de Matemática.
+* [Canal Port](https://www.youtube.com/@ProfessorNoslen) - Canal do YouTube disponibilizado para videoaulas de Português.
+* [Canal Hist](https://www.youtube.com/c/Parab%C3%B3lica) - Canal do YouTube disponibilizado para videoaulas de História.
+* [Canal Geo](https://www.youtube.com/@gabaritageo) - Canal do YouTube disponibilizado para videoaulas de Geografia.
+* [Canal Bio](https://www.youtube.com/@professorsamuelcunha) - Canal do YouTube disponibilizado para videoaulas de Biologia.
+* [Canal Quim](https://www.youtube.com/c/Marcel%C3%A3odaQu%C3%ADmica) - Canal do YouTube disponibilizado para videoaulas de Química.
+* [Canal Fis](https://www.youtube.com/@Fisica2.0) - Canal do YouTube disponibilizado para videoaulas de Física.
+* [Canal Ing](https://www.youtube.com/@PROFESSORKENNYOFICIAL) - Canal do YouTube disponibilizado para videoaulas de Inglês.
+* [Canal RL](https://www.youtube.com/@WagnerAguiar) - Canal do YouTube disponibilizado para videoaulas de Raciocínio Lógico.
+* [Canal Multi](https://www.youtube.com/@MalditaFcc) - Canal do YouTube disponibilizado para videoaulas Multidisciplinares.
