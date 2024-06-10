@@ -57,11 +57,11 @@ As cores desempenham um papel significativo no ambiente de estudo, influenciando
 
 <br>
 
-*Roxo Escuro* - Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
-
 *Azul Marinho* - Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.
 
 *Bordô* - Esta cor rica e profunda, uma mistura de vermelho e roxo, pode incentivar a paixão e a energia. Ideal para as partes do Site que envolvem o Teste Vocacional, Apresentação dos Cursos e Cronogramas.
+
+*Roxo Escuro* - Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
 
 *Azul Petróleo* - Com uma mistura de azul e verde, essa cor traz uma sensação de equilíbrio e sofisticação. É ideal para espaços onde se precisa de foco e criatividade, sem causar estresse.
 
