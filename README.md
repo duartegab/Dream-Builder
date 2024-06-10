@@ -122,3 +122,10 @@ Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links 
 * [YouTube](https://www.youtube.com/) - Usamos alguns vídeos da plataforma para resolução de dúvidas e ideias para alguns elementos do site.
 * [GitHub](https://github.com/) - Usamos alguns repositórios da plataforma como base para ideias de alguns elementos do site.
 * [Canva](https://www.canva.com/) - Usamos o Canva para a ideia de alguns templates, como os Cronogramas e o Modelo de Negócio Canvas.
+
+
+
+## Autores ✒️
+
+[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Criação da Logo, Documentação, Elevator Pitch.
+[Caroline Avelar](https://github.com/carolineavelar/) - Criação dos Jogos e Alarme no Site, Elaboração do Low-fi e High-Fi, Documentação, Elevator Pitch.
