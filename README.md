@@ -142,9 +142,9 @@ Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab)
 ## 🎁 Gratidão
 * Agradeço particulamente a minha amiga [Caroline Avelar](https://github.com/carolineavelar/) pela parceria e acreditar no Projeto desde o início, que nossa parceria sempre prevaleça! 🥰
 * Desde já conto o apoio de vocês e peço que nos sigam, para acompanharem junto conosco nossos Projetos Realizados no 2º Semestre em diante)! 📢;
-* Agradeço aos meus professores Márcio Funes, Fernando Martins e Leonardo Raiz que nos instruiu com o projeto; 🦾
-* Agradeço também a todos os parceiros do W3 Schools, Canva, YouTube, CodePen e GitHub, que forneceu ideias e materiais de apoio para conseguirmos levantar esse projeto do zero; 🗻
-* Também agradeço a nossa família, amigos, que nos motivam a cada dia mais para entrar no Ramo de Tecnologia da Informação, com o objetivo de construirmos uma carreira estável, sendo profissionais íntegro e inovador. 🫂
+* Agradeçemos aos nossos professores Márcio Funes, Fernando Martins e Leonardo Raiz que nos instruíram com o projeto; 🦾
+* Agradeçemos também a todos os parceiros do W3 Schools, Canva, YouTube, CodePen e GitHub, que forneceram ideias e materiais de apoio para conseguirmos levantar esse projeto do zero; 🗻
+* Também agradeçemos a nossa família, amigos, que nos motivam a cada dia mais para entrarmos no Ramo de Tecnologia da Informação, com o objetivo de construirmos uma carreira estável, sendo profissionais íntegros e inovadores. 🫂
 
 ---
 ⌨️ com ❤️ por [Caroline Avelar](https://github.com/carolineavelar/)  e  [Gabriel Duarte](https://github.com/duartegab) 😊
