@@ -52,6 +52,7 @@ Você sabia que a definição de cores é fundamental para a criação de um sit
 Entenda o nosso propósito através de nossas cores:
 
 As cores desempenham um papel significativo no ambiente de estudo, influenciando o foco, a produtividade e o bem-estar. Aqui está a relação de algumas cores específicas:
+
 ![PALETA](https://github.com/duartegab/Dream-Builder/blob/main/paleta0.png)
 
 <br>
@@ -70,4 +71,4 @@ As cores desempenham um papel significativo no ambiente de estudo, influenciando
 Cada uma dessas cores pode ser utilizada estrategicamente em espaços de estudo para criar um ambiente que favoreça o foco, a produtividade e o bem-estar mental.
 
 ![PALETA1](https://github.com/duartegab/Dream-Builder/blob/main/paleta1.png)
-![PALETA2](https://github.com/duartegab/Dream-Builder/blob/main/paleta2.png)
+![PALETA2](https://github.com/duartegab/Dream-Builder/blob/main/paleta3.png)
