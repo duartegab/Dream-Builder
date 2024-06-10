@@ -1,2 +1,2 @@
 # Dream-Builder
-Página Web com conceitos de HTML, CSS e JavaScript, projetada para pessoas com o objetivo de entrar na Fatec através do vestibular. Plataforma de estudos com resolução de exercícios e provas antigas, além de outros parâmetros importantes para conseguir ingressar na universidade.
+Para esse projeto, iremos 'Contruir Sonhos' para aqueles vestibulandos que desejam ingressar na Fatec. Através de um Página Web com conceitos de HTML, CSS e JavaScript, iremos fornecer suporte ao usuário desde a escolha de seu curso até o desenvolvimento de sua rotina de estudos durante o dia a dia. Através dos simulados disponibilizados, plataformas para redação e exercícios, o estudante contará com diversos parâmetros importantes para conseguir ingressar na universidade.
