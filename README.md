@@ -40,7 +40,8 @@ Por fim, aprendemos sobre dimensão e proporção de telas. Essa proporção foi
 
 ### Criação da Logo / Bob 🐻‍❄️
 Oie, antes de me tornar um mascote, já fui uma logo e um vetor, sabia? Se liga nas imagens abaixo:
-(https://github.com/duartegab/Dream-Builder/blob/main/urso1.svg)
+![VETOR](https://github.com/duartegab/Dream-Builder/blob/main/urso1.svg)
+
 
 ### Low-fi | High-fi 📝
 Quer saber como dimensionar seus rascunhos e telas do site? Só clicar em [Figma](https://www.figma.com/design/J4WIfPUStwMm0E4vVluFf0/PI?node-id=0-1&t=xKOdq9LGV1Osl5Kg-1).
