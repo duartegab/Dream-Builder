@@ -24,6 +24,7 @@ Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os 
 
 ### Elevator Pitch 🎞️
 Quer ver como esse Elevator Pitch funciona na prática? Confira nesse link: (https://youtu.be/tHEObuMiMG8).
+
 Material de Apoio (Power Point)
 
 ### Documento RUF 🗃️
