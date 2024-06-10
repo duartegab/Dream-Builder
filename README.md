@@ -12,7 +12,7 @@ No CSS, além de deixar tudo harmônico e colorido, fizemos algumas animações 
 Por fim, utilizamos recursos simples de JavaScript, para animações e resultados mais otimizados para o próprio vestibulando!
 
 ### Site 🚀
-Quer ver o resultado de todo esse aprendizado? Clique em [Site](https://projeto-dream-buider.netlify.app/). Aproveite a experiência!
+Quer ver o resultado de todo esse aprendizado? Clique no [Site](https://projeto-dream-buider.netlify.app/). Aproveite a experiência!
 
 
 
@@ -28,7 +28,7 @@ Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https
 Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [RUF](https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
 
 ### Documento RUF 🗃️
-Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar aqui em [Slides](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
+Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar nos [Slides](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
 
 
 
@@ -47,7 +47,7 @@ Quer saber como dimensionar seus rascunhos e telas do site? Só clicar em [Figma
 ### Paleta de Cores 🎨
 Você sabia que a definição de cores é fundamental para a criação de um site?
 Entenda o nosso propósito através de nossas cores:
-
+<br>
 As cores desempenham um papel significativo no ambiente de estudo, influenciando o foco, a produtividade e o bem-estar. Aqui está a relação de algumas cores específicas:
 (img bolinhas)
 
