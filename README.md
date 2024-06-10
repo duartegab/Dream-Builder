@@ -21,3 +21,10 @@ A Engenharia de Software também foi fundamental para que o nosso projeto aconte
 Sendo assim, analisamos o nosso projeto de maneira mais abrangente pois, além de uma Página Web, o  nosso negócio é capaz de construir sonhos, para aqueles que sonham com o seu Ensino Superior.
 
 Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os seus modelos de Processos). Também aprendemos sobre Regras de Negócio, Requisitos Funcionais e Não Funcionais, o Modelo Canvas e toda a Documentação de Software necessária para fazer o negócio sair do papel e se tornar um Software assertivo. Por fim, também aprendemos sobre o Elevator Pitch, também fundamental para nosso Projeto, através dele, entendemos os problemas, soluções e diferenciais que apresentamos no decorrer do mesmo.
+
+### Elevator Pitch 🎞️
+Quer ver como esse Elevator Pitch funciona na prática? Confira nesse link: (https://youtu.be/tHEObuMiMG8).
+Material de Apoio (Power Point)
+
+### Documento RUF 🗃️
+Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar no link: (word).
