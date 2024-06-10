@@ -88,7 +88,7 @@ Para acessar o Feedback, é só clicar em [Feedback](https://github.com/duartega
 
 Ao decorrer do site, colocamos vários canais, sites e recursos de referência no site para engajar o estudo dos estudantes. Aqui abaixo, segue os links de cada material usado:
 
-* [Site Fatec](https://www.vestibularfatec.com.br/home/) - Usado como base para descobrir a história da Fatec, e a disponibilização das provas de gabaritos.
+* [Site Fatec](https://www.vestibularfatec.com.br/home/) - Usado como base para descobrir a história da Fatec, e a disponibilização das provas e gabaritos.
 * [Canal Fatec](https://www.youtube.com/@fatecfrancaoficial) - Utilizado para disponibilizar os depoimentos dos alunos e ex-alunos.
 * [Site Objetivo](https://www.curso-objetivo.br/vestibular/resolucao-comentada/fatec.aspx) - Disponibilização das Correções Comentadas das Provas.
 * [Correcao Prova 9](https://www.youtube.com/live/bjoQow1KhbU?start=0) - Correção Comentada da Prova 9.
