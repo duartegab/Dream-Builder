@@ -76,6 +76,7 @@ Se você também ficou interessado em como Documentar o seu próprio Software, �
 
 ## Dream-Builder no Design Digital 🖱️📱
 Por fim, também tivemos a disciplina de Design Digital ao longo do Semestre. Ela foi essencial para o nosso projeto, com ela afloramos toda a nossa criatividade, além de entender diversos aspectos essenciais que fazem de um Desenvolvedor um Designer para suas próprias projeções.
+
 No ínicio do Semestre, aprendemos inúmeros conceitos de luz, sombra e texturas. Outro conceito abordado foi a Psicologia das Cores. Além dos trabalhos práticos realizados, entendemos como essas relações são fundamentais para harmonizar qualquer elemento digital.
 Também aprendemos sobre Vetorização e Logos, ela foi essencial para criarmos nosso mascote (Bob), através da mescla de linhas e formas.
 Por fim, aprendemos sobre dimensão e proporção de telas. Essa proporção foi a âncora para tirar o projeto do papel e iniciarmos nele de fato!
