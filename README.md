@@ -18,9 +18,9 @@ Aproveite a experiência!
 
 ### Prints 📷
 Separei pra ti alguns prints do site, veja só:
-![1](https://github.com/duartegab/Dream-Builder/blob/main/provasespecificas.png)!
-[2](https://github.com/duartegab/Dream-Builder/blob/main/provasbotao.png)!
-[3](https://github.com/duartegab/Dream-Builder/blob/main/contatoredes.png)
+![1](https://github.com/duartegab/Dream-Builder/blob/main/provasespecificas.png)
+![2](https://github.com/duartegab/Dream-Builder/blob/main/provasbotao.png)
+![3](https://github.com/duartegab/Dream-Builder/blob/main/contatoredes.png)
 
 ### Gifs 👀
 Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
