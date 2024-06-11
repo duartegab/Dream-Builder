@@ -16,6 +16,11 @@ Quer ver o resultado de todo esse aprendizado? Clique no [Site](https://projeto-
 
 Aproveite a experiência!
 
+### Gifs 👀
+Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
+
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baloes.gif)
+
 
 
 ## Dream-Builder na Engenharia de Software 📋⚓
