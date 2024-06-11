@@ -20,6 +20,12 @@ Aproveite a experiência!
 Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
 
 ![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baloes.gif)
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baralho.gif)
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/menu%20inicial.gif)
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/quebra%20cabeca.gif)
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/teste%20vocacional.gif)
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/alarme.gif)
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/texto%20fatec.gif)
 
 
 
