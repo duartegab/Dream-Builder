@@ -19,13 +19,30 @@ Aproveite a experiência!
 ### Gifs 👀
 Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
 
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baloes.gif)
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baralho.gif)
+Menu Inicial, com o Bob e as falas aparecendo gradualmente:
 ![Gif](https://github.com/duartegab/Dream-Builder/blob/main/menu%20inicial.gif)
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/quebra%20cabeca.gif)
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/teste%20vocacional.gif)
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/alarme.gif)
+
+Biografia da Fatec, sendo escrita ao vivo:
 ![Gif](https://github.com/duartegab/Dream-Builder/blob/main/texto%20fatec.gif)
+
+Explicando o curso através de um baralho interativo:
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baralho.gif)
+
+Respondendo o Teste Vocacional, em Descobrindo seu Curso:
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/teste%20vocacional.gif)
+
+Alarme com o tempo em Relógio:
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/alarme.gif)
+
+Balões animados sendo links para videoaulas:
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baloes.gif)
+
+Jogo de Quebra-Cabeça, no Pausa e Foco:
+![Gif](https://github.com/duartegab/Dream-Builder/blob/main/quebra%20cabeca.gif)
+
+
+
+
 
 
 
