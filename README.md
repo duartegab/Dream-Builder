@@ -18,8 +18,14 @@ Aproveite a experiência!
 
 ### Prints 📷
 Separei pra ti alguns prints do site, veja só:
+
+Gráfico com as Metas Esperadas de acertos nas Provas (durante o Cronograma):
 ![1](https://github.com/duartegab/Dream-Builder/blob/main/provasespecificas.png)
+
+Botões animados para acessar as Provas Antigas:
 ![2](https://github.com/duartegab/Dream-Builder/blob/main/provasbotao.png)
+
+Botões animados para acessar nossas redes socias, com a Avaliação do Usuário acima:
 ![3](https://github.com/duartegab/Dream-Builder/blob/main/contatoredes.png)
 
 ### Gifs 👀
